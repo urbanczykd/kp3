@@ -15,7 +15,7 @@ class Admin::EventsortsController < ApplicationController
           @miejsca = Place.count.times.map {|c| c +1}.join(";")
           @kolejnosc = @miejsca
           
-          return render :text => "#{Places.find(:all)}"
+          #return render :text => "#{Places.find(:all)}"
    else
          @kolejnosc.split(';').collect{ |k| @miejsca.find{ |m| k.to_i == m.id} }
           

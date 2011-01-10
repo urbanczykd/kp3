@@ -16,8 +16,8 @@ class GalerieController < ApplicationController
          render :action => :index, :id => Date.today.year.to_s+"-"+Date.today.month.to_s+"-1"
        end 
 #4 to muzyka
-    @galerie = Event.all(:conditions => {:category_id => 2})
-  end
+          @galerie = Event.all(:conditions => {:category_id => 2, :magazine_id => @magazine})
+    end
 
   
   def show
@@ -25,8 +25,8 @@ class GalerieController < ApplicationController
     # jeżeli jest w akcji show ( a jest ) przekaz puste parametry
     # czyli parametry posiadające "dzisiejszy dzień"
        puste
-@magazine = Magazine.first(:conditions => {:start_date => @numer })
-@soons = Soon.find(:all, :conditions => {:magazine_id => @magazine.id}, :order=> :position)
+      @magazine = Magazine.first(:conditions => {:start_date => @numer })
+      @soons = Soon.find(:all, :conditions => {:magazine_id => @magazine.id}, :order=> :position)
     
     @galerie = Event.find(params[:id])
     respond_to do |format|

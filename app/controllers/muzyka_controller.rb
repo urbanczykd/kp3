@@ -15,7 +15,7 @@ def index
          render :action => :index, :id => Date.today.year.to_s+"-"+Date.today.month.to_s+"-1"
        end 
 #4 to muzyka
-    @muzyka = Event.all(:conditions => {:category_id => 3})
+    @muzyka = Event.all(:conditions => {:category_id => 3, :magazine_id => @magazine})
   end
 
   

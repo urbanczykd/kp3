@@ -13,9 +13,9 @@
 <% @topones.each do |topone| %>
   <tr>
     <td><%= topone.position %></td>
-    <td><%=h topone.magazine_id %></td>
-    <td><%=h topone.category_id %></td>
-    <td><%=h topone.place_id %></td>
+    <td><%=h Magazine.find(topone.magazine_id).start_date.to_date.strftime("%Y-%m") %></td>
+    <td><%=h Category.find(topone.category_id).title %></td>
+    <td><%=h Place.find(topone.place_id).title %></td>
     <td><%=h topone.title %></td>
     <td>
       <% if (topone === @topones.first) then %>
