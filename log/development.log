@@ -1694,3 +1694,290 @@ Rendered wydarzenia/_iadres (1.2ms)
 Rendered wydarzenia/_kontakt (1.2ms)
 Rendered share/_footer (36.1ms)
 Completed in 290ms (View: 265, DB: 1) | 200 OK [http://195.116.105.9/wydarzenia/]
+/!\ FAILSAFE /!\  Mon Jan 10 17:24:19 +0100 2011
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/macbookair/.rvm/gems/ruby-1.8.7-p302@kp3/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/macbookair/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (38.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100705111929)
+  [4;36;1mSQL (15.7ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `login_count` int(11), `failed_login_count` int(11), `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100705111929')[0m
+Migrating to CreateCovers (20100707082903)
+  [4;36;1mSQL (15.7ms)[0m   [0;1mCREATE TABLE `covers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `magazine_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100707082903')[0m
+Migrating to AddAttachmentsPhotoToCover (20100707084341)
+  [4;36;1mSQL (20.5ms)[0m   [0;1mALTER TABLE `covers` ADD `photo_file_name` varchar(255)[0m
+  [4;35;1mSQL (17.4ms)[0m   [0mALTER TABLE `covers` ADD `photo_content_type` varchar(255)[0m
+  [4;36;1mSQL (17.7ms)[0m   [0;1mALTER TABLE `covers` ADD `photo_file_size` int(11)[0m
+  [4;35;1mSQL (18.1ms)[0m   [0mALTER TABLE `covers` ADD `photo_updated_at` datetime[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100707084341')[0m
+Migrating to CreateMagazines (20100707090107)
+  [4;35;1mSQL (15.5ms)[0m   [0mCREATE TABLE `magazines` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `start_date` datetime, `status` int(11) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100707090107')[0m
+Migrating to CreateEversions (20100708074849)
+  [4;35;1mSQL (16.8ms)[0m   [0mCREATE TABLE `eversions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `magazine_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100708074849')[0m
+Migrating to AddAttachmentsPdfToEversion (20100708075031)
+  [4;35;1mSQL (17.6ms)[0m   [0mALTER TABLE `eversions` ADD `pdf_file_name` varchar(255)[0m
+  [4;36;1mSQL (20.7ms)[0m   [0;1mALTER TABLE `eversions` ADD `pdf_content_type` varchar(255)[0m
+  [4;35;1mSQL (17.6ms)[0m   [0mALTER TABLE `eversions` ADD `pdf_file_size` int(11)[0m
+  [4;36;1mSQL (20.9ms)[0m   [0;1mALTER TABLE `eversions` ADD `pdf_updated_at` datetime[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100708075031')[0m
+Migrating to CreateCategories (20100708184330)
+  [4;36;1mSQL (15.5ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `color` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100708184330')[0m
+Migrating to CreateArchiwes (20100709141720)
+  [4;36;1mSQL (14.8ms)[0m   [0;1mCREATE TABLE `archiwes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `magazine_id` int(11), `status` int(11), `start_date` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100709141720')[0m
+Migrating to CreatePlaces (20100712071638)
+  [4;36;1mSQL (17.7ms)[0m   [0;1mCREATE TABLE `places` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `name` varchar(255), `adres` text, `telephone` varchar(255), `email` varchar(255), `web` varchar(255), `more` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100712071638')[0m
+Migrating to CreateEventdays (20100712095543)
+  [4;36;1mSQL (17.0ms)[0m   [0;1mCREATE TABLE `eventdays` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `event_id` int(11), `pday` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100712095543')[0m
+Migrating to CreateEvents (20100712097359)
+  [4;36;1mSQL (16.4ms)[0m   [0;1mCREATE TABLE `events` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `place_id` int(11), `category_id` int(11), `magazine_id` int(11), `start_time` time, `title` varchar(255), `body` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100712097359')[0m
+Migrating to CreateEgalleries (20100715084316)
+  [4;36;1mSQL (22.3ms)[0m   [0;1mCREATE TABLE `egalleries` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `event_id` int(11), `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100715084316')[0m
+Migrating to CreateEgalleryps (20100715084402)
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE `egalleryps` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `egallery_id` int(11), `title` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100715084402')[0m
+Migrating to AddAttachmentsPhotoToEgalleryp (20100715085123)
+  [4;36;1mSQL (19.5ms)[0m   [0;1mALTER TABLE `egalleryps` ADD `photo_file_name` varchar(255)[0m
+  [4;35;1mSQL (17.3ms)[0m   [0mALTER TABLE `egalleryps` ADD `photo_content_type` varchar(255)[0m
+  [4;36;1mSQL (18.0ms)[0m   [0;1mALTER TABLE `egalleryps` ADD `photo_file_size` int(11)[0m
+  [4;35;1mSQL (17.5ms)[0m   [0mALTER TABLE `egalleryps` ADD `photo_updated_at` datetime[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100715085123')[0m
+Migrating to CreateTinyMceMedia (20100720105019)
+  [4;35;1mSQL (17.7ms)[0m   [0mCREATE TABLE `prints` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `image_file_name` varchar(255), `image_file_size` varchar(255), `image_content_type` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (15.1ms)[0m   [0;1mCREATE TABLE `videos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `original_file_name` varchar(255), `original_file_size` varchar(255), `original_content_type` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100720105019')[0m
+Migrating to CreateIadres (20100721073246)
+  [4;36;1mSQL (15.8ms)[0m   [0;1mCREATE TABLE `iadres` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `adres` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721073246')[0m
+Migrating to CreateTopones (20100721122205)
+  [4;36;1mSQL (16.1ms)[0m   [0;1mCREATE TABLE `topones` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `magazine_id` int(11), `category_id` int(11), `place_id` int(11), `title` text, `body` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721122205')[0m
+Migrating to AddPositionToMagazine (20100721164418)
+  [4;36;1mSQL (19.5ms)[0m   [0;1mALTER TABLE `magazines` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721164418')[0m
+Migrating to AddPositionToArchiwe (20100721164651)
+  [4;36;1mSQL (20.9ms)[0m   [0;1mALTER TABLE `archiwes` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721164651')[0m
+Migrating to AddPositionToEgalleryp (20100721164830)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mALTER TABLE `egalleryps` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721164830')[0m
+Migrating to AddPositionToUser (20100721165057)
+  [4;36;1mSQL (20.8ms)[0m   [0;1mALTER TABLE `users` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100721165057')[0m
+Migrating to AddPositionToIadres (20100722060733)
+  [4;36;1mSQL (21.2ms)[0m   [0;1mALTER TABLE `iadres` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100722060733')[0m
+Migrating to AddPositionToTopone (20100723071512)
+  [4;36;1mSQL (22.0ms)[0m   [0;1mALTER TABLE `topones` ADD `position` int(11)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100723071512')[0m
+Migrating to AddMoreToTopone (20100723071530)
+  [4;36;1mSQL (21.5ms)[0m   [0;1mALTER TABLE `topones` ADD `more` text[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100723071530')[0m
+Migrating to AddMagazineIdToPrint (20100723120055)
+  [4;36;1mSQL (21.2ms)[0m   [0;1mALTER TABLE `prints` ADD `magazine_id` int(11)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100723120055')[0m
+Migrating to AddMagazineIdToVideo (20100723120112)
+  [4;36;1mSQL (20.6ms)[0m   [0;1mALTER TABLE `videos` ADD `magazine_id` int(11)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100723120112')[0m
+Migrating to CreateSoons (20100726064858)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mCREATE TABLE `soons` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `magazine_id` int(11), `position` int(11), `title` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100726064858')[0m
+Migrating to AddPriceToEvents (20100727163821)
+  [4;36;1mSQL (20.3ms)[0m   [0;1mALTER TABLE `events` ADD `price` varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100727163821')[0m
+Migrating to AddMoreToEvents (20100727163934)
+  [4;36;1mSQL (18.4ms)[0m   [0;1mALTER TABLE `events` ADD `more` text[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100727163934')[0m
+Migrating to CreateSponsors (20100803060011)
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCREATE TABLE `sponsors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `topone_id` int(11), `event_id` varchar(255), `title` varchar(255), `adres` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100803060011')[0m
+Migrating to AddAttachmentsPhotoToSponsor (20100803061033)
+  [4;36;1mSQL (17.9ms)[0m   [0;1mALTER TABLE `sponsors` ADD `photo_file_name` varchar(255)[0m
+  [4;35;1mSQL (17.5ms)[0m   [0mALTER TABLE `sponsors` ADD `photo_content_type` varchar(255)[0m
+  [4;36;1mSQL (17.9ms)[0m   [0;1mALTER TABLE `sponsors` ADD `photo_file_size` int(11)[0m
+  [4;35;1mSQL (18.5ms)[0m   [0mALTER TABLE `sponsors` ADD `photo_updated_at` datetime[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100803061033')[0m
+Migrating to CreateSponsorizations (20100803070159)
+  [4;35;1mSQL (17.6ms)[0m   [0mCREATE TABLE `sponsorizations` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `topone_id` int(11), `event_id` int(11), `sponsor_id` int(11), `position` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100803070159')[0m
+Migrating to AddEToEvents (20100817073127)
+  [4;35;1mSQL (19.4ms)[0m   [0mALTER TABLE `events` ADD `e` tinyint(1) DEFAULT 0[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100817073127')[0m
+Migrating to CreateZgloszenias (20100819111302)
+  [4;35;1mSQL (17.1ms)[0m   [0mCREATE TABLE `zgloszenias` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `ticket` varchar(255), `ticket_price` varchar(255), `adres` varchar(255), `street` varchar(255), `place` varchar(255), `postcode` varchar(255), `telephone` varchar(255), `web` varchar(255), `person_name` varchar(255), `person_surname` varchar(255), `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100819111302')[0m
+Migrating to AddAttachmentsPhotoToZgloszenia (20100819111715)
+  [4;35;1mSQL (21.2ms)[0m   [0mALTER TABLE `zgloszenias` ADD `photo_file_name` varchar(255)[0m
+  [4;36;1mSQL (21.6ms)[0m   [0;1mALTER TABLE `zgloszenias` ADD `photo_content_type` varchar(255)[0m
+  [4;35;1mSQL (17.8ms)[0m   [0mALTER TABLE `zgloszenias` ADD `photo_file_size` int(11)[0m
+  [4;36;1mSQL (18.2ms)[0m   [0;1mALTER TABLE `zgloszenias` ADD `photo_updated_at` datetime[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100819111715')[0m
+Migrating to AddMiejsceToMagazines (20100824101623)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mALTER TABLE `magazines` ADD `miejsce` varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100824101623')[0m
+Migrating to AddMiejscaToMagazines (20101021085543)
+  [4;36;1mSQL (20.4ms)[0m   [0;1mALTER TABLE `magazines` ADD `miejsca` varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101021085543')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSHOW FIELDS FROM `archiwes`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `archiwes`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `archiwes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `categories`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `categories`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `covers`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `covers`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `covers`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `egalleries`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `egalleries`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `egalleries`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `egalleryps`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `egalleryps`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `egalleryps`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `eventdays`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `eventdays`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `eventdays`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW FIELDS FROM `events`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `events`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW KEYS FROM `events`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `eversions`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `eversions`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `eversions`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `iadres`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `iadres`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `iadres`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `magazines`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `magazines`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `magazines`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `places`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `places`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `places`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `prints`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `prints`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `prints`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `soons`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `soons`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `soons`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW FIELDS FROM `sponsorizations`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `sponsorizations`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `sponsorizations`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `sponsors`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `sponsors`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `sponsors`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `topones`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `topones`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `topones`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `videos`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `videos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `videos`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `zgloszenias`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `zgloszenias`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `zgloszenias`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mEgallery Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `egalleries`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mEgallery Create (0.7ms)[0m   [0;1mINSERT INTO `egalleries` (`name`, `created_at`, `event_id`, `updated_at`) VALUES('pierwsza', '2011-01-10 16:28:12', 1, '2011-01-10 16:28:12')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mEgallery Create (0.2ms)[0m   [0mINSERT INTO `egalleries` (`name`, `created_at`, `event_id`, `updated_at`) VALUES('druga', '2011-01-10 16:28:12', 2, '2011-01-10 16:28:12')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mEgallery Create (0.2ms)[0m   [0;1mINSERT INTO `egalleries` (`name`, `created_at`, `event_id`, `updated_at`) VALUES('trzecia', '2011-01-10 16:28:12', 3, '2011-01-10 16:28:12')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mEgallery Create (0.1ms)[0m   [0mINSERT INTO `egalleries` (`name`, `created_at`, `event_id`, `updated_at`) VALUES('czwarta', '2011-01-10 16:28:12', 4, '2011-01-10 16:28:12')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WydarzeniaController#index (for 127.0.0.1 at 2011-01-10 17:28:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"wydarzenia"}
+  [4;36;1mMagazine Load (0.4ms)[0m   [0;1mSELECT * FROM `magazines` WHERE (`magazines`.`start_date` = '2011-1-1') LIMIT 1[0m
+Rendering template within layouts/pk
+Rendering wydarzenia/index
+Rendered share/_header (2.7ms)
+Rendered share/_search (1.8ms)
+Rendered wydarzenia/_topone (0.9ms)
+Rendered wydarzenia/_nota (1.4ms)
+Rendered wydarzenia/_kalendarz (91.4ms)
+Rendered wydarzenia/_kalendarium (95.9ms)
+Rendered wydarzenia/_soon (0.7ms)
+Rendered wydarzenia/_iadres (0.6ms)
+Rendered wydarzenia/_kontakt (0.6ms)
+Rendered share/_footer (11.4ms)
+Completed in 187ms (View: 174, DB: 1) | 200 OK [http://localhost/]
