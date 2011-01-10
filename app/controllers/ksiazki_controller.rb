@@ -16,7 +16,7 @@ class KsiazkiController < ApplicationController
          render :action => :index, :id => Date.today.year.to_s+"-"+Date.today.month.to_s+"-1"
        end 
 #4 to muzyka
-    @ksiazki = Event.all(:conditions => {:category_id => 6})
+    @ksiazki = Event.all(:conditions => {:category_id => 6, :magazine_id => @magazine})
   end
 
   

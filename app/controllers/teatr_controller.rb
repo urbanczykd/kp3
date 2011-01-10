@@ -15,7 +15,7 @@ class TeatrController < ApplicationController
          render :action => :index, :id => Date.today.year.to_s+"-"+Date.today.month.to_s+"-1"
        end 
 #4 to muzyka
-    @teatr = Event.all(:conditions => {:category_id => 4})
+    @teatr = Event.all(:conditions => {:category_id => 4, :magazine_id => @magazine})
   end
 
   

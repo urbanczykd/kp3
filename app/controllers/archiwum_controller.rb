@@ -6,7 +6,7 @@ class ArchiwumController < ApplicationController
       else
         puste
       end
-       @archiwes = Magazine.find(:all, :conditions => {:status => 1}, :order => 'start_date')
+       @archiwes = Magazine.find(:all, :conditions => {:status => 1}, :order => 'start_date ASC')
        @archiwes_years = @archiwes.group_by { |t| t.start_date.beginning_of_year }
 
 #      @tasks = Task.find(:all, :order => 'due_at, id', :limit => 50)

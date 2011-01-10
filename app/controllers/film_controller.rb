@@ -15,7 +15,7 @@ class FilmController < ApplicationController
          render :action => :index, :id => Date.today.year.to_s+"-"+Date.today.month.to_s+"-1"
        end 
 #4 to muzyka
-    @film = Event.all(:conditions => {:category_id => 5})
+    @film = Event.all(:conditions => {:category_id => 5, :magazine_id => @magazine})
   end
 
   

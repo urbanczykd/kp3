@@ -22,8 +22,8 @@ development:
   pool: 5
   username: pk2
   password: pk21245
-  socket: /tmp/mysql.sock
-#  socket: /var/run/mysqld/mysqld.sock
+#  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
   
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -36,8 +36,8 @@ test:
   pool: 5
   username: pk2
   password: pk21245
-#  socket: /var/run/mysqld/mysqld.sock
-  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
+#  socket: /tmp/mysql.sock
   #4mac  
 
 production:
@@ -48,6 +48,6 @@ production:
   pool: 5
   username: pk2
   password: pk21245
-#  socket: /var/run/mysqld/mysqld.sock
-  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
+#  socket: /tmp/mysql.sock
   #4mac  
