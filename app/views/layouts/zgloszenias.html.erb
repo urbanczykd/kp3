@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" >
+<head>
+<title>Pełna Kultura</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<meta name="author" content="www.wietor.pl" />
+    <%= javascript_include_tag 'jquery-1.4.2' %>
+    <%= javascript_include_tag 'jquery-ui'%>
+    <%= javascript_include_tag 'jrails'%>
+
+  <%= stylesheet_link_tag 'pk'%>
+  <%= stylesheet_link_tag 'dodaj'%>
+  <%= stylesheet_link_tag 'formularz'%>
+  <%= stylesheet_link_tag 'calendarium'%>
+  <%= javascript_include_tag 'pk/pk'%>
+  <%= javascript_include_tag 'application' %>
+
+</head>
+<body>
+  <div id="flash" class="flash_html">
+	<% unless flash[:notice].blank? %>
+        	<%= flash[:notice]%>
+	<% end %>
+        <% unless flash[:error].blank? %>
+        	<%= flash[:error]%>
+	<% end %>
+</div>
+
+<%= yield %>
+</body>
+</html>

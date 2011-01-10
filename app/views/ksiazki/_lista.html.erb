@@ -1,0 +1,8 @@
+<h1>Wydarzenia z kategorii <%= params[:controller]%></h1>
+<% @ksiazki.each do |ksiazki| %>
+<p>
+Tytuł: 
+<%= link_to(ksiazki.title, :controller => params[:controller], :action => "show", :id => ksiazki) %>
+
+</p>
+<% end %>

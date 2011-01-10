@@ -1,0 +1,31 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#pagewidth {background-image: url(/images/pk/tlo_book.png);}
+
+#header, #foto, #wrapper {background-color: #a5037d;}
+
+A {color: #a5037d;
+font-family: sans-serif;}
+
+A:Visited {color: #a5037d;}
+
+A:Hover {color: #a5037d;
+font-weight: bold;
+text-decoration: underline;}
+
+H1, H2, H3 {color: #a5037d;}
+
+#leftcol {background-image: url(/images/pk/left_pas_book.png);}
+
+#rightcol A {color: #FEC0EF;
+text-decoration: none;}
+
+#rightcol A:Visited {color: #FD93E2;
+text-decoration: none;}
+
+#rightcol A:Hover {color: #FFFFFF;
+text-decoration: none;}
+
+#footer A {color: #ec7200;}
+#footer A:Visited {color: #a5037d;}
+#footer A:Hover {color: #a5037d;}

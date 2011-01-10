@@ -1,0 +1,8 @@
+<h1>Wydarzenia z kategorii <%= params[:controller]%></h1>
+<% @film.each do |film| %>
+<p>
+Tytuł: 
+<%= link_to(film.title, :controller => params[:controller], :action => "show", :id => film) %>
+
+</p>
+<% end %>

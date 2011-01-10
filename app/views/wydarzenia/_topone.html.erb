@@ -1,0 +1,31 @@
+<% if !@topones.nil? %>
+<% @topones.each do |topone| %>
+  <div id="tresc">
+  <h1><%= topone.title %></h1>
+
+ 
+<p><%= topone.body %></p>
+  </div>
+
+<% if !topone.sponsors.empty? %>
+
+<div id="tresc">
+    <hr />
+    <table width="100%">
+      <tr>
+          <b>Sponsorzy</b><br />
+          <% topone.sponsors.each do |sponsor| %>
+          <td align="center">
+            <a href="<%= sponsor.adres %>"><%= image_tag sponsor.photo.url(:small)%></a><br />
+            <%= sponsor.title %>
+          </td>
+          <% end %>
+        </tr>
+      </table>
+      <hr />
+  </div>
+  <% end %>
+<% end %>
+
+
+<% end %>

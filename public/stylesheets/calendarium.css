@@ -1,0 +1,2480 @@
+#INACT_1{
+  background-image: url(/images/pk/kalendarz/1_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_1{
+  background-image: url(/images/pk/kalendarz/1_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_1{
+  background-image: url(/images/pk/kalendarz/1_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_1{
+  background-image: url(/images/pk/kalendarz/1_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_1{
+  background-image: url(/images/pk/kalendarz/1_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_1:hover {
+  background-image: url(/images/pk/kalendarz/1_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_1{
+  background-image: url(/images/pk/kalendarz/1_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_1:hover {
+  background-image: url(/images/pk/kalendarz/1_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_1{
+  background-image: url(/images/pk/kalendarz/1_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_1:hover {
+  background-image: url(/images/pk/kalendarz/1_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_2{
+  background-image: url(/images/pk/kalendarz/2_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_2{
+  background-image: url(/images/pk/kalendarz/2_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_2{
+  background-image: url(/images/pk/kalendarz/2_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_2{
+  background-image: url(/images/pk/kalendarz/2_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_2{
+  background-image: url(/images/pk/kalendarz/2_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_2:hover {
+  background-image: url(/images/pk/kalendarz/2_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_2{
+  background-image: url(/images/pk/kalendarz/2_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_2:hover {
+  background-image: url(/images/pk/kalendarz/2_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_2{
+  background-image: url(/images/pk/kalendarz/2_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_2:hover {
+  background-image: url(/images/pk/kalendarz/2_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_3{
+  background-image: url(/images/pk/kalendarz/3_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_3{
+  background-image: url(/images/pk/kalendarz/3_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_3{
+  background-image: url(/images/pk/kalendarz/3_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_3{
+  background-image: url(/images/pk/kalendarz/3_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_3{
+  background-image: url(/images/pk/kalendarz/3_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_3:hover {
+  background-image: url(/images/pk/kalendarz/3_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_3{
+  background-image: url(/images/pk/kalendarz/3_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_3:hover {
+  background-image: url(/images/pk/kalendarz/3_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_3{
+  background-image: url(/images/pk/kalendarz/3_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_3:hover {
+  background-image: url(/images/pk/kalendarz/3_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_4{
+  background-image: url(/images/pk/kalendarz/4_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_4{
+  background-image: url(/images/pk/kalendarz/4_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_4{
+  background-image: url(/images/pk/kalendarz/4_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_4{
+  background-image: url(/images/pk/kalendarz/4_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_4{
+  background-image: url(/images/pk/kalendarz/4_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_4:hover {
+  background-image: url(/images/pk/kalendarz/4_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_4{
+  background-image: url(/images/pk/kalendarz/4_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_4:hover {
+  background-image: url(/images/pk/kalendarz/4_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_4{
+  background-image: url(/images/pk/kalendarz/4_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_4:hover {
+  background-image: url(/images/pk/kalendarz/4_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_5{
+  background-image: url(/images/pk/kalendarz/5_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_5{
+  background-image: url(/images/pk/kalendarz/5_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_5{
+  background-image: url(/images/pk/kalendarz/5_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_5{
+  background-image: url(/images/pk/kalendarz/5_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_5{
+  background-image: url(/images/pk/kalendarz/5_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_5:hover {
+  background-image: url(/images/pk/kalendarz/5_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_5{
+  background-image: url(/images/pk/kalendarz/5_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_5:hover {
+  background-image: url(/images/pk/kalendarz/5_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_5{
+  background-image: url(/images/pk/kalendarz/5_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_5:hover {
+  background-image: url(/images/pk/kalendarz/5_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_6{
+  background-image: url(/images/pk/kalendarz/6_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_6{
+  background-image: url(/images/pk/kalendarz/6_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_6{
+  background-image: url(/images/pk/kalendarz/6_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_6{
+  background-image: url(/images/pk/kalendarz/6_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_6{
+  background-image: url(/images/pk/kalendarz/6_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_6:hover {
+  background-image: url(/images/pk/kalendarz/6_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_6{
+  background-image: url(/images/pk/kalendarz/6_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_6:hover {
+  background-image: url(/images/pk/kalendarz/6_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_6{
+  background-image: url(/images/pk/kalendarz/6_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_6:hover {
+  background-image: url(/images/pk/kalendarz/6_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_7{
+  background-image: url(/images/pk/kalendarz/7_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_7{
+  background-image: url(/images/pk/kalendarz/7_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_7{
+  background-image: url(/images/pk/kalendarz/7_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_7{
+  background-image: url(/images/pk/kalendarz/7_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_7{
+  background-image: url(/images/pk/kalendarz/7_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_7:hover {
+  background-image: url(/images/pk/kalendarz/7_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_7{
+  background-image: url(/images/pk/kalendarz/7_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_7:hover {
+  background-image: url(/images/pk/kalendarz/7_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_7{
+  background-image: url(/images/pk/kalendarz/7_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_7:hover {
+  background-image: url(/images/pk/kalendarz/7_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_8{
+  background-image: url(/images/pk/kalendarz/8_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_8{
+  background-image: url(/images/pk/kalendarz/8_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_8{
+  background-image: url(/images/pk/kalendarz/8_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_8{
+  background-image: url(/images/pk/kalendarz/8_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_8{
+  background-image: url(/images/pk/kalendarz/8_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_8:hover {
+  background-image: url(/images/pk/kalendarz/8_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_8{
+  background-image: url(/images/pk/kalendarz/8_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_8:hover {
+  background-image: url(/images/pk/kalendarz/8_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_8{
+  background-image: url(/images/pk/kalendarz/8_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_8:hover {
+  background-image: url(/images/pk/kalendarz/8_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_9{
+  background-image: url(/images/pk/kalendarz/9_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_9{
+  background-image: url(/images/pk/kalendarz/9_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_9{
+  background-image: url(/images/pk/kalendarz/9_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_9{
+  background-image: url(/images/pk/kalendarz/9_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_9{
+  background-image: url(/images/pk/kalendarz/9_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_9:hover {
+  background-image: url(/images/pk/kalendarz/9_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_9{
+  background-image: url(/images/pk/kalendarz/9_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_9:hover {
+  background-image: url(/images/pk/kalendarz/9_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_9{
+  background-image: url(/images/pk/kalendarz/9_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_9:hover {
+  background-image: url(/images/pk/kalendarz/9_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_10{
+  background-image: url(/images/pk/kalendarz/10_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_10{
+  background-image: url(/images/pk/kalendarz/10_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_10{
+  background-image: url(/images/pk/kalendarz/10_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_10{
+  background-image: url(/images/pk/kalendarz/10_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_10{
+  background-image: url(/images/pk/kalendarz/10_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_10:hover {
+  background-image: url(/images/pk/kalendarz/10_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_10{
+  background-image: url(/images/pk/kalendarz/10_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_10:hover {
+  background-image: url(/images/pk/kalendarz/10_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_10{
+  background-image: url(/images/pk/kalendarz/10_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_10:hover {
+  background-image: url(/images/pk/kalendarz/10_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_11{
+  background-image: url(/images/pk/kalendarz/11_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_11{
+  background-image: url(/images/pk/kalendarz/11_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_11{
+  background-image: url(/images/pk/kalendarz/11_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_11{
+  background-image: url(/images/pk/kalendarz/11_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_11{
+  background-image: url(/images/pk/kalendarz/11_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_11:hover {
+  background-image: url(/images/pk/kalendarz/11_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_11{
+  background-image: url(/images/pk/kalendarz/11_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_11:hover {
+  background-image: url(/images/pk/kalendarz/11_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_11{
+  background-image: url(/images/pk/kalendarz/11_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_11:hover {
+  background-image: url(/images/pk/kalendarz/11_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_12{
+  background-image: url(/images/pk/kalendarz/12_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_12{
+  background-image: url(/images/pk/kalendarz/12_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_12{
+  background-image: url(/images/pk/kalendarz/12_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_12{
+  background-image: url(/images/pk/kalendarz/12_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_12{
+  background-image: url(/images/pk/kalendarz/12_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_12:hover {
+  background-image: url(/images/pk/kalendarz/12_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_12{
+  background-image: url(/images/pk/kalendarz/12_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_12:hover {
+  background-image: url(/images/pk/kalendarz/12_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_12{
+  background-image: url(/images/pk/kalendarz/12_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_12:hover {
+  background-image: url(/images/pk/kalendarz/12_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_13{
+  background-image: url(/images/pk/kalendarz/13_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_13{
+  background-image: url(/images/pk/kalendarz/13_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_13{
+  background-image: url(/images/pk/kalendarz/13_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_13{
+  background-image: url(/images/pk/kalendarz/13_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_13{
+  background-image: url(/images/pk/kalendarz/13_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_13:hover {
+  background-image: url(/images/pk/kalendarz/13_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_13{
+  background-image: url(/images/pk/kalendarz/13_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_13:hover {
+  background-image: url(/images/pk/kalendarz/13_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_13{
+  background-image: url(/images/pk/kalendarz/13_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_13:hover {
+  background-image: url(/images/pk/kalendarz/13_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_14{
+  background-image: url(/images/pk/kalendarz/14_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_14{
+  background-image: url(/images/pk/kalendarz/14_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_14{
+  background-image: url(/images/pk/kalendarz/14_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_14{
+  background-image: url(/images/pk/kalendarz/14_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_14{
+  background-image: url(/images/pk/kalendarz/14_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_14:hover {
+  background-image: url(/images/pk/kalendarz/14_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_14{
+  background-image: url(/images/pk/kalendarz/14_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_14:hover {
+  background-image: url(/images/pk/kalendarz/14_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_14{
+  background-image: url(/images/pk/kalendarz/14_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_14:hover {
+  background-image: url(/images/pk/kalendarz/14_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_15{
+  background-image: url(/images/pk/kalendarz/15_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_15{
+  background-image: url(/images/pk/kalendarz/15_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_15{
+  background-image: url(/images/pk/kalendarz/15_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_15{
+  background-image: url(/images/pk/kalendarz/15_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_15{
+  background-image: url(/images/pk/kalendarz/15_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_15:hover {
+  background-image: url(/images/pk/kalendarz/15_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_15{
+  background-image: url(/images/pk/kalendarz/15_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_15:hover {
+  background-image: url(/images/pk/kalendarz/15_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_15{
+  background-image: url(/images/pk/kalendarz/15_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_15:hover {
+  background-image: url(/images/pk/kalendarz/15_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_16{
+  background-image: url(/images/pk/kalendarz/16_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_16{
+  background-image: url(/images/pk/kalendarz/16_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_16{
+  background-image: url(/images/pk/kalendarz/16_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_16{
+  background-image: url(/images/pk/kalendarz/16_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_16{
+  background-image: url(/images/pk/kalendarz/16_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_16:hover {
+  background-image: url(/images/pk/kalendarz/16_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_16{
+  background-image: url(/images/pk/kalendarz/16_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_16:hover {
+  background-image: url(/images/pk/kalendarz/16_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_16{
+  background-image: url(/images/pk/kalendarz/16_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_16:hover {
+  background-image: url(/images/pk/kalendarz/16_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_17{
+  background-image: url(/images/pk/kalendarz/17_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_17{
+  background-image: url(/images/pk/kalendarz/17_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_17{
+  background-image: url(/images/pk/kalendarz/17_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_17{
+  background-image: url(/images/pk/kalendarz/17_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_17{
+  background-image: url(/images/pk/kalendarz/17_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_17:hover {
+  background-image: url(/images/pk/kalendarz/17_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_17{
+  background-image: url(/images/pk/kalendarz/17_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_17:hover {
+  background-image: url(/images/pk/kalendarz/17_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_17{
+  background-image: url(/images/pk/kalendarz/17_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_17:hover {
+  background-image: url(/images/pk/kalendarz/17_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_18{
+  background-image: url(/images/pk/kalendarz/18_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_18{
+  background-image: url(/images/pk/kalendarz/18_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_18{
+  background-image: url(/images/pk/kalendarz/18_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_18{
+  background-image: url(/images/pk/kalendarz/18_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_18{
+  background-image: url(/images/pk/kalendarz/18_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_18:hover {
+  background-image: url(/images/pk/kalendarz/18_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_18{
+  background-image: url(/images/pk/kalendarz/18_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_18:hover {
+  background-image: url(/images/pk/kalendarz/18_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_18{
+  background-image: url(/images/pk/kalendarz/18_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_18:hover {
+  background-image: url(/images/pk/kalendarz/18_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_19{
+  background-image: url(/images/pk/kalendarz/19_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_19{
+  background-image: url(/images/pk/kalendarz/19_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_19{
+  background-image: url(/images/pk/kalendarz/19_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_19{
+  background-image: url(/images/pk/kalendarz/19_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_19{
+  background-image: url(/images/pk/kalendarz/19_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_19:hover {
+  background-image: url(/images/pk/kalendarz/19_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_19{
+  background-image: url(/images/pk/kalendarz/19_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_19:hover {
+  background-image: url(/images/pk/kalendarz/19_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_19{
+  background-image: url(/images/pk/kalendarz/19_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_19:hover {
+  background-image: url(/images/pk/kalendarz/19_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_20{
+  background-image: url(/images/pk/kalendarz/20_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_20{
+  background-image: url(/images/pk/kalendarz/20_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_20{
+  background-image: url(/images/pk/kalendarz/20_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_20{
+  background-image: url(/images/pk/kalendarz/20_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_20{
+  background-image: url(/images/pk/kalendarz/20_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_20:hover {
+  background-image: url(/images/pk/kalendarz/20_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_20{
+  background-image: url(/images/pk/kalendarz/20_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_20:hover {
+  background-image: url(/images/pk/kalendarz/20_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_20{
+  background-image: url(/images/pk/kalendarz/20_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_20:hover {
+  background-image: url(/images/pk/kalendarz/20_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_21{
+  background-image: url(/images/pk/kalendarz/21_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_21{
+  background-image: url(/images/pk/kalendarz/21_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_21{
+  background-image: url(/images/pk/kalendarz/21_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_21{
+  background-image: url(/images/pk/kalendarz/21_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_21{
+  background-image: url(/images/pk/kalendarz/21_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_21:hover {
+  background-image: url(/images/pk/kalendarz/21_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_21{
+  background-image: url(/images/pk/kalendarz/21_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_21:hover {
+  background-image: url(/images/pk/kalendarz/21_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_21{
+  background-image: url(/images/pk/kalendarz/21_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_21:hover {
+  background-image: url(/images/pk/kalendarz/21_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_22{
+  background-image: url(/images/pk/kalendarz/22_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_22{
+  background-image: url(/images/pk/kalendarz/22_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_22{
+  background-image: url(/images/pk/kalendarz/22_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_22{
+  background-image: url(/images/pk/kalendarz/22_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_22{
+  background-image: url(/images/pk/kalendarz/22_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_22:hover {
+  background-image: url(/images/pk/kalendarz/22_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_22{
+  background-image: url(/images/pk/kalendarz/22_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_22:hover {
+  background-image: url(/images/pk/kalendarz/22_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_22{
+  background-image: url(/images/pk/kalendarz/22_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_22:hover {
+  background-image: url(/images/pk/kalendarz/22_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_23{
+  background-image: url(/images/pk/kalendarz/23_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_23{
+  background-image: url(/images/pk/kalendarz/23_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_23{
+  background-image: url(/images/pk/kalendarz/23_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_23{
+  background-image: url(/images/pk/kalendarz/23_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_23{
+  background-image: url(/images/pk/kalendarz/23_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_23:hover {
+  background-image: url(/images/pk/kalendarz/23_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_23{
+  background-image: url(/images/pk/kalendarz/23_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_23:hover {
+  background-image: url(/images/pk/kalendarz/23_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_23{
+  background-image: url(/images/pk/kalendarz/23_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_23:hover {
+  background-image: url(/images/pk/kalendarz/23_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_24{
+  background-image: url(/images/pk/kalendarz/24_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_24{
+  background-image: url(/images/pk/kalendarz/24_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_24{
+  background-image: url(/images/pk/kalendarz/24_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_24{
+  background-image: url(/images/pk/kalendarz/24_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_24{
+  background-image: url(/images/pk/kalendarz/24_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_24:hover {
+  background-image: url(/images/pk/kalendarz/24_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_24{
+  background-image: url(/images/pk/kalendarz/24_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_24:hover {
+  background-image: url(/images/pk/kalendarz/24_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_24{
+  background-image: url(/images/pk/kalendarz/24_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_24:hover {
+  background-image: url(/images/pk/kalendarz/24_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_25{
+  background-image: url(/images/pk/kalendarz/25_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_25{
+  background-image: url(/images/pk/kalendarz/25_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_25{
+  background-image: url(/images/pk/kalendarz/25_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_25{
+  background-image: url(/images/pk/kalendarz/25_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_25{
+  background-image: url(/images/pk/kalendarz/25_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_25:hover {
+  background-image: url(/images/pk/kalendarz/25_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_25{
+  background-image: url(/images/pk/kalendarz/25_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_25:hover {
+  background-image: url(/images/pk/kalendarz/25_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_25{
+  background-image: url(/images/pk/kalendarz/25_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_25:hover {
+  background-image: url(/images/pk/kalendarz/25_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_26{
+  background-image: url(/images/pk/kalendarz/26_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_26{
+  background-image: url(/images/pk/kalendarz/26_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_26{
+  background-image: url(/images/pk/kalendarz/26_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_26{
+  background-image: url(/images/pk/kalendarz/26_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_26{
+  background-image: url(/images/pk/kalendarz/26_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_26:hover {
+  background-image: url(/images/pk/kalendarz/26_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_26{
+  background-image: url(/images/pk/kalendarz/26_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_26:hover {
+  background-image: url(/images/pk/kalendarz/26_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_26{
+  background-image: url(/images/pk/kalendarz/26_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_26:hover {
+  background-image: url(/images/pk/kalendarz/26_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_27{
+  background-image: url(/images/pk/kalendarz/27_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_27{
+  background-image: url(/images/pk/kalendarz/27_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_27{
+  background-image: url(/images/pk/kalendarz/27_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_27{
+  background-image: url(/images/pk/kalendarz/27_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_27{
+  background-image: url(/images/pk/kalendarz/27_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_27:hover {
+  background-image: url(/images/pk/kalendarz/27_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_27{
+  background-image: url(/images/pk/kalendarz/27_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_27:hover {
+  background-image: url(/images/pk/kalendarz/27_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_27{
+  background-image: url(/images/pk/kalendarz/27_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_27:hover {
+  background-image: url(/images/pk/kalendarz/27_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_28{
+  background-image: url(/images/pk/kalendarz/28_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_28{
+  background-image: url(/images/pk/kalendarz/28_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_28{
+  background-image: url(/images/pk/kalendarz/28_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_28{
+  background-image: url(/images/pk/kalendarz/28_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_28{
+  background-image: url(/images/pk/kalendarz/28_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_28:hover {
+  background-image: url(/images/pk/kalendarz/28_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_28{
+  background-image: url(/images/pk/kalendarz/28_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_28:hover {
+  background-image: url(/images/pk/kalendarz/28_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_28{
+  background-image: url(/images/pk/kalendarz/28_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_28:hover {
+  background-image: url(/images/pk/kalendarz/28_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_29{
+  background-image: url(/images/pk/kalendarz/29_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_29{
+  background-image: url(/images/pk/kalendarz/29_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_29{
+  background-image: url(/images/pk/kalendarz/29_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_29{
+  background-image: url(/images/pk/kalendarz/29_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_29{
+  background-image: url(/images/pk/kalendarz/29_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_29:hover {
+  background-image: url(/images/pk/kalendarz/29_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_29{
+  background-image: url(/images/pk/kalendarz/29_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_29:hover {
+  background-image: url(/images/pk/kalendarz/29_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_29{
+  background-image: url(/images/pk/kalendarz/29_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_29:hover {
+  background-image: url(/images/pk/kalendarz/29_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_30{
+  background-image: url(/images/pk/kalendarz/30_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_30{
+  background-image: url(/images/pk/kalendarz/30_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_30{
+  background-image: url(/images/pk/kalendarz/30_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_30{
+  background-image: url(/images/pk/kalendarz/30_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_30{
+  background-image: url(/images/pk/kalendarz/30_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_30:hover {
+  background-image: url(/images/pk/kalendarz/30_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_30{
+  background-image: url(/images/pk/kalendarz/30_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_30:hover {
+  background-image: url(/images/pk/kalendarz/30_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_30{
+  background-image: url(/images/pk/kalendarz/30_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_30:hover {
+  background-image: url(/images/pk/kalendarz/30_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#INACT_31{
+  background-image: url(/images/pk/kalendarz/31_INACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+  }
+#ACT_31{
+  background-image: url(/images/pk/kalendarz/31_ACT.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_SO_31{
+  background-image: url(/images/pk/kalendarz/31_ACT_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#ACT_ND_31{
+  background-image: url(/images/pk/kalendarz/31_ACT_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_31{
+  background-image: url(/images/pk/kalendarz/31_N.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_31:hover {
+  background-image: url(/images/pk/kalendarz/31_H.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_31{
+  background-image: url(/images/pk/kalendarz/31_N_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_SO_31:hover {
+  background-image: url(/images/pk/kalendarz/31_H_so.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_31{
+  background-image: url(/images/pk/kalendarz/31_N_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+#N_ND_31:hover {
+  background-image: url(/images/pk/kalendarz/31_H_nd.gif);
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}

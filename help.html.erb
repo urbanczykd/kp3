@@ -1,0 +1,148 @@
+git add . # dodaje wszystkie pliki z katalogu w którym jesteśmy do repozytorium
+git commint -m "komentarz" # dodaje komentarz do wsyztkich plików które dodaliśmy
+git remote add origin ssh://git@YOUR-SLICE-IP:30000/path/to/project1 # add the remote orgin ?
+git push origin master # wysyla wszystkie zmieany
+git clone ssh://czacha@195.116.105.9:2200/home/czacha/public_html/rails/kp3.git # sciąga repo
+git push origin master
+##
+tworzenie repo
+mkdir nazwa.git
+cd nazwa.git
+git init --bare
+##
+sshfs czacha@195.116.105.9:/home/czacha Pulpit/sw2/ -p 2200
+##
+###############
+git add .
+git commit -am "zmiany w pracy 18 sierpnia" 12:59
+git push
+####################
+aktualizacja z mian lokalnie
+git pull 13:01
+albo 13:01
+git fetch 13:01
+git pull --rebase 13:01
+a jesli nie masz
+####################
+re
+script/generate scaffold Eversion magazine_id:integer
+#paperclip
+script/generate paperclip Eversion pdf
+script/generate paperclip sponsor photo
+rake db:migrate
+#migracje
+script/generate migration add_price_to_events price:string
+
+require 'rubygems'
+require 'paperclip'
+#konwersja
+convert -resize 600 małaPKczerwiec.pdf[0] thumbnail1.jpg
+
+##########################################Ruby
+case params[:move]
+   when "up" then @iadre.move_higher
+   when "down" then @iadre.move_lower
+   when "last" then @iadre.move_to_bottom
+   when "first" then @iadre.move_to_top
+end
+
+najprosciej
+lambda to cos jakby przekazywanie kodu jako zmiennej 14:08
+a = lambda {|c| c+rand(10)} 14:08
+iaczej 14:09
+a = lambda {|c| p "napisales mi #{c}"} 14:09
+a.call "czacha" 14:09
+a = lambda {|c| p "a teraz #{c}"} 14:10
+a.call "czacha"
+
+
+'abc abc {dupa=1} abc'.gsub(/ \{dupa=(\d+)\}/,''); i = $1
+
+16:04 < Arsen7> ja tam w przyk�adzie da�em g.inspect, ale podejrzewam �e albo masz w tym obiekcie (Egalleryp) 
+                metod� .to_html, albo masz widok, gdzie mo�esz zrobi� co� w stylu: render_to_string( 
+                :partial=>'gallery', :locals => {:gal => g})
+16:05 < Arsen7> Gsub wymieni string na to, co zostanie zwr�cone przez tw�j blok. Zamiast mojego g.inspect daj 
+                "<div id='gallery'>dupa</div>"
+
+<!-- start gallery -->
+  <% if (topone.body.gsub(/\{gallery=(\d+)\}/,''); @i = $1).nil? %>
+
+    <% else %>
+    JEST ! i podaje zmienna <%= @i %>
+    <table><tr><td>
+    <div style="display:block; float:left; height:auto; width: 500px;">
+      <% @egalleryp = Egalleryp.find(:all, :conditions => {:egallery_id => @i}, :order => :position) %>
+        <% @egalleryp.each do |egallery| %>
+      <div style="float:left; height:150px; width:150px; margin:6px 2px 1px 1px; padding:6px 2px 2px; text-align: center; vertical-align: middle;">
+            <%= image_tag egallery.photo.url(:small)%>
+              <%= egallery.title%>
+      </div>
+        <% end %>
+      </div>
+    </div>
+    </td></tr></table>
+<% end %>
+<!--galeria end -->
+
+
+vvvvvvvvvvvvvvvvvv
+ <%# topone.body.gsub(/\{gallery=(\d+)\}/) do |md| 
+"    <table><tr><td>
+    <div>
+            #{@egalleryp = Egalleryp.find(:all, :conditions => {:egallery_id => $i}, :order => :position)}
+            <% @egalleryp.each do |egallery| %>
+            <%= image_tag egallery.photo.url(:small) %>
+            <% egallery.title %>
+            <% end %>
+
+    </div>
+    </td></tr></table>
+" 
+ end %>
+
+vvvvvvvvvvvvvvvvvvv
+
+hipertracker> gallery_id = body.scan(/\{gallery=(\d+)\}/).flatten[0]
+21:05 < hipertracker> potem majac id budujesz string i wrzucasz do zmiennej, np. content
+
+1:05 < hipertracker> kurwa, skad ja mam wiedziec co oznacza ten id
+21:06 < hipertracker> content = jakis_html_dla(gallery_id)
+21:07 < hipertracker> i potem body.gsub! /\{gallery=\d+\}/, content
+
+
+21:06 < hipertracker> content = jakis_html_dla(gallery_id)
+21:07 < hipertracker> i potem body.gsub! /\{gallery=\d+\}/, content
+!! content = render_to_string :partial => 'gallery', :locals => {:id => gallery_id}
+
+
+
+ <%= topone.body.gsub(/\{gallery=(\d+)\}/) do |md| 
+" 
+    <div>
+            #{@egalleryp = Egalleryp.find(:all, :conditions => {:egallery_id => $i}, :order => :position)}
+            <% @egalleryp.each do |egallery| %>
+            <%= image_tag egallery.photo.url(:small) %>
+            <% egallery.title %>
+            <% end %>
+
+    </div>
+" end %>
+###############################
+(1..3).map {|r| r+1 }
+to inaczej 10:23
+1+1, 2+1, 3+1 10:23
+czyli dostaniesz tablice 10:23
+2,3,4 10:23
+to to samo co 10:23
+for i=0; i<arr.length; i++ 10:23
+tablica[i]= tablica[i]+1 10:24
+end 10:24
+kap[isz? 10:24
+#################################
+np tak:
+module MetodyCzachy
+def dupa?
+self.to_s == "dupa"
+end
+end 08:53
+String.send(:include, MetodyCzachy)

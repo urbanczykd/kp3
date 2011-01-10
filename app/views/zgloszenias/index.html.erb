@@ -1,0 +1,44 @@
+<h1>Listing zgloszenias</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Ticket</th>
+    <th>Ticket price</th>
+    <th>Adres</th>
+    <th>Street</th>
+    <th>Place</th>
+    <th>Postcode</th>
+    <th>Telephone</th>
+    <th>Web</th>
+    <th>Person name</th>
+    <th>Person surname</th>
+    <th>Email</th>
+  </tr>
+
+<% @zgloszenias.each do |zgloszenia| %>
+  <tr>
+    <td><%=h zgloszenia.name %></td>
+    <td><%=h zgloszenia.description %></td>
+    <td><%=h zgloszenia.ticket %></td>
+    <td><%=h zgloszenia.ticket_price %></td>
+    <td><%=h zgloszenia.adres %></td>
+    <td><%=h zgloszenia.street %></td>
+    <td><%=h zgloszenia.place %></td>
+    <td><%=h zgloszenia.postcode %></td>
+    <td><%=h zgloszenia.telephone %></td>
+    <td><%=h zgloszenia.web %></td>
+    <td><%=h zgloszenia.person_name %></td>
+    <td><%=h zgloszenia.person_surname %></td>
+    <td><%=h zgloszenia.email %></td>
+    <td><%= link_to 'Show', zgloszenia %></td>
+    <td><%= link_to 'Edit', edit_zgloszenia_path(zgloszenia) %></td>
+    <td><%= link_to 'Destroy', zgloszenia, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New zgloszenia', new_zgloszenia_path %>

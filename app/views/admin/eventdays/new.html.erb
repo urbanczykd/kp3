@@ -1,0 +1,19 @@
+<h1>New eventday</h1>
+
+<% form_for([:admin, @eventday]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :event_id %>ID<br />
+    <%= f.text_field :event_id %>
+  </p>
+  <p>
+    <%= f.label :pday %><br />
+    <%= f.datetime_select :pday %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', admin_eventdays_path %>

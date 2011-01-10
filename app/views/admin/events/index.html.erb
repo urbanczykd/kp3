@@ -1,0 +1,47 @@
+<h1>Lista event'ów </h1>
+<table id="tabela">
+  <tr style="background-color: white;">
+    <th>event id</th>
+    <th>Place</th>
+    <th>Category</th>
+    <th>Magazine</th>
+    <th>!!!!!!!!!!!</th>
+    <th>Wydarzenie?</th>
+    <th>Start time</th>
+    <th>Title</th>
+    <!-- <th>Body</th> -->
+  </tr>
+<% @events.each do |event| %>
+  <tr>
+    <td><%=h event.id %></td>
+    <td><%=h Place.find(event.place_id).title %></td>
+    <td><%=h Category.find(event.category_id).title %></td>
+    <td><%=h Magazine.find(event.magazine_id).start_date.strftime("%Y-%m") %></td>
+    <td>
+        <% event.eventdays.each do |eventday|%>
+                <% if eventday   %>
+                        <%= eventday.pday.strftime("%d-%m-%Y") %>,
+                <% end %>
+        <% end %>
+    </td>
+    <td><%=h event.e? %></td>
+    <td><%=h event.start_time.strftime("%H:%M") %></td>
+    <td><%=h event.title %></td>
+    <td><%#h event.body %></td>
+    <td><%= link_to t('nav.Show'), admin_magazine_event_path(@magazine, event.id) %>
+      <%# link_to (t('nav.Show'), :controller => "admin/magazine", :action => "show", :id => event.id)  %>
+    </td>
+    <td><%= link_to t('nav.Edit'), edit_admin_magazine_event_path(@magazine, event.id) %>
+      <%# link_to (t('nav.Edit'), :controller => "admin/magazine", :action => "edit", :id => event) %>
+    </td>
+    <td><%= link_to t('nav.Destroy'), admin_magazine_event_url(@magazine, event.id), :confirm => 'Are you sure?', :method => :delete %>
+      <%# link_to (t('nav.Destroy'), :controller => "admin/magazine", :action => "destroy", :id => event ) %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @events %>
+<br />
+
+<%= link_to 'Dodaj wydarzenie', new_admin_magazine_event_path %><br /><br />
+<%= link_to t('nav.Back'), admin_magazine_url(@magazine) %>

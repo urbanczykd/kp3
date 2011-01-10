@@ -1,0 +1,10 @@
+<p>
+  <b>Magazine:</b>
+  <%=h @cover.magazine_id %>
+</p>
+<p>
+<%= image_tag @cover.photo.url(:small) %> 
+</p>
+
+<%# link_to 'Edit', edit_cover_path(@cover) %> |
+<%# link_to 'Back', covers_path %>

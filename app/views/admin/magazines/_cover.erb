@@ -1,0 +1,5 @@
+      <% if @magazine.cover == nil %>
+          <p>Brak okładki</p>
+      <% else %>
+        <%= image_tag @magazine.cover.photo.url(:small) %>
+      <% end %>

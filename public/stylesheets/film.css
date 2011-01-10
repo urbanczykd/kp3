@@ -1,0 +1,26 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color:#ee7d00;
+)}
+
+A {color:#ee7d00;
+font-family:sans-serif;}
+
+A:Visited {color:#CC6B00;}
+
+A:Hover {color:#CC6B00;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#ee7d00;}
+
+#leftcol {background-image: url(/images/pk/left_pas_film.png);}
+
+#rightcol A {color: #f0f0f0;
+text-decoration: none;}
+
+#rightcol A:Visited {color: #dbdbdb;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}

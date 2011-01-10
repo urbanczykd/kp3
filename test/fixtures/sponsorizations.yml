@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  topone_id: 1
+  event_id: 1
+  sponsor_id: 1
+  position: 1
+  created_at: 2010-08-03 09:01:59
+
+two:
+  topone_id: 1
+  event_id: 1
+  sponsor_id: 1
+  position: 1
+  created_at: 2010-08-03 09:01:59

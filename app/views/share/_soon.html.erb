@@ -1,0 +1,13 @@
+<% if !@soons.nil? %>
+<img src="/images/pk/wkrotce_250px.png" vspace="0" alt="" />
+        <div id="tresc">
+          <p>
+          <b>W przyszłym miesiącu polecamy:</b>
+            <ul>
+                <% @soons.each do |soon| %>
+              <li><%= soon.title%></li>
+                <% end %>
+            </ul>
+          </p>
+		  </div>
+<% end %>

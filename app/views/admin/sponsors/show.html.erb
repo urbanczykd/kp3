@@ -1,0 +1,27 @@
+<p>
+  <b>Topone:</b>
+  <%=h @sponsor.topone_id %>
+</p>
+
+<p>
+  <b>Event:</b>
+  <%=h @sponsor.event_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @sponsor.title %>
+</p>
+
+<p>
+  <b>Adres:</b>
+  <%=h @sponsor.adres %>
+</p>
+<p>
+  <b>Logo:</b><br />
+  <%=h image_tag @sponsor.photo.url(:small) %>
+</p>
+
+
+<%= link_to t('nav.Edit'), edit_admin_sponsor_path(@sponsor) %> |
+<%= link_to t('nav.Back'), admin_sponsors_path %>

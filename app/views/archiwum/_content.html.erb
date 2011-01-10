@@ -1,0 +1,15 @@
+<h1>Archiwum</h1>
+<ul>
+<% @archiwes_years.sort.each do |rok, magazyny| %>
+  <h2><%= rok.strftime('%Y') %></h2>
+  <% for magazyn in magazyny %>
+      <li>
+      <%= l magazyn.start_date.to_date, :format => :month_only %>
+      <% if !magazyn.eversion.nil? then %>
+         <%= link_to 'PDF', Magazine.find(magazyn.id).eversion.pdf.url%>
+      <% end %>
+      <%# magazyn.eversion.nil? ? link_to 'cos' : 'nie' %>
+      </li>
+  <% end %>
+<% end %>
+</ul>

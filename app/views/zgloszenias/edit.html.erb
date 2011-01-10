@@ -1,0 +1,64 @@
+<h1>Editing zgloszenia</h1>
+
+<% form_for(@zgloszenia) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :ticket %><br />
+    <%= f.text_field :ticket %>
+  </p>
+  <p>
+    <%= f.label :ticket_price %><br />
+    <%= f.text_field :ticket_price %>
+  </p>
+  <p>
+    <%= f.label :adres %><br />
+    <%= f.text_field :adres %>
+  </p>
+  <p>
+    <%= f.label :street %><br />
+    <%= f.text_field :street %>
+  </p>
+  <p>
+    <%= f.label :place %><br />
+    <%= f.text_field :place %>
+  </p>
+  <p>
+    <%= f.label :postcode %><br />
+    <%= f.text_field :postcode %>
+  </p>
+  <p>
+    <%= f.label :telephone %><br />
+    <%= f.text_field :telephone %>
+  </p>
+  <p>
+    <%= f.label :web %><br />
+    <%= f.text_field :web %>
+  </p>
+  <p>
+    <%= f.label :person_name %><br />
+    <%= f.text_field :person_name %>
+  </p>
+  <p>
+    <%= f.label :person_surname %><br />
+    <%= f.text_field :person_surname %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @zgloszenia %> |
+<%= link_to 'Back', zgloszenias_path %>

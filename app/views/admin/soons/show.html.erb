@@ -1,0 +1,18 @@
+<p>
+  <b>Magazine:</b>
+  <%=h @soon.magazine_id %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%=h @soon.position %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @soon.title %>
+</p>
+
+
+<%= link_to t('nav.Edit'), edit_admin_magazine_soon_path(@magazine) %> |
+<%= link_to t('nav.Back'), admin_magazine_soons_path(@magazine) %>

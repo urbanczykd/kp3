@@ -1,0 +1,14 @@
+konwencja
+-------------------------------
+[kategoria]_[STAN].png
+
+
+N: normalny
+H: hover
+A: active
+
+Na stronie startowej (czerwonej) oraz kalendarium (fioletowej) 
+wszystkie przyciski maj± stan N, po najechaniu mysz± stan H.
+
+Po wybraniu kategorii (np. teatr) przycisk [teatr] ma stan A, 
+reszta jak przedtem.

@@ -1,0 +1,17 @@
+<p>
+  <b>Nazwa kategorii:</b>
+  <%=h @category.title %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <div style="display: inline; width: 30px; background: <%=h @category.color %>">
+    _______________________________
+  </div><br />
+  Nazwa koloru:<br />
+  <%=h @category.color %><br /><br />
+</p>
+
+
+<%= link_to t('nav.Edit'), edit_admin_category_path(@category) %> |
+<%= link_to t('nav.Back'), admin_categories_path %>

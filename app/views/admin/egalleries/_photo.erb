@@ -1,0 +1,21 @@
+<div style="background-color: white; display: inline;">
+  dodaj zdjęcia
+
+  <% form_for(@egalleryp, :url => admin_egallery_egalleryps_path(@egallery), :html => { :multipart => true}) do |f| %>
+
+    <%# f.label :egallery_id %>
+    <%= f.hidden_field :egallery_id, :value => @egallery.id %>
+  <p>
+    Tytuł nowego zdjęcia:<br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+  <%= f.file_field :photo %>
+
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+</div>

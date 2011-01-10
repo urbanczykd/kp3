@@ -1,0 +1,25 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color:#66c0c9;}
+
+A {color:#66c0c9;
+font-family:sans-serif;}
+
+A:Visited {color:#42B0BD;}
+
+A:Hover {color:#368E98;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#66c0c9;}
+
+#leftcol {background-image: url(/images/pk/left_pas_muzyka.png);}
+
+#rightcol A {color:#DEF1F3;
+text-decoration:none;}
+
+#rightcol A:Visited {color:#BEE4E9;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}n

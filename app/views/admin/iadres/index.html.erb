@@ -1,0 +1,39 @@
+<h1>Lista adresów</h1>
+
+<table id="tabela">
+  <tr style="background-color: white;">
+    <th>Title</th>
+    <th>Adres</th>
+    <th>Pozycja</th>
+  </tr>
+
+<% @iadres.each do |iadre| %>
+  <tr>
+    <td><%=h iadre.title %></td>
+    <td><%=h iadre.adres %></td>
+    <td><%= link_to t('nav.Show'), [:admin, iadre] %></td>
+    <td><%= link_to t('nav.Edit'), edit_admin_iadre_path(iadre) %></td>
+    <td><%= link_to t('nav.Destroy'), [:admin, iadre], :confirm => 'Are you sure?', :method => :delete %></td>
+    <td>
+    <% if (iadre === @iadres.first) then %>
+      <%= link_to 'D |', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%= link_to '', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "last"}, :method => :put %>
+
+    <% elsif (iadre === @iadres.last) then %>
+      <%= link_to ' ', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "first"}, :method => :put %>
+      <%= link_to 'U |', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "up"}, :method => :put, :class => 'up' %>
+
+    <% else %>
+      <%= link_to ' ', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "first"}, :method => :put %>
+      <%= link_to 'U |', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "up"}, :method => :put, :class => 'up' %>
+      <%= link_to 'D |', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%= link_to '', {:controller => 'admin/iadres', :action => 'move', :id => iadre.id, :move => "last"}, :method => :put %>
+    <% end %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Dodaj adres', new_admin_iadre_path %>

@@ -1,0 +1,26 @@
+        <%# render "right_panel" %>
+
+<h1>Editing magazine</h1>
+ 
+
+<% form_for([:admin, @magazine]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :start_date %><br />
+    <%= f.datetime_select :start_date, :discard_hour => true, :discard_day => true %>
+  </p>
+  <p>
+      <% if @magazine.cover == nil %>
+          <p>Brak zdjęcia</p>
+        <% else %>
+      <%= image_tag @magazine.cover.photo.url(:small) %>
+        <% end %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', [:admin, @magazine] %> |
+<%= link_to 'Back', admin_magazines_path %>

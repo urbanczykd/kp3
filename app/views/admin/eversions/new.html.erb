@@ -1,0 +1,26 @@
+<h1>Dodaj PDF</h1>
+
+<% form_for(@eversion, :url => admin_magazine_eversion_path, :html => { :multipart => true }) do |f| %>
+  
+                       <%= f.error_messages %>
+
+  <% if @magazine.eversion == nil %>
+            <p>
+              <%= f.hidden_field (:magazine_id, :value => @magazine.id) %>
+            </p>
+            <p>
+              <%= f.file_field :pdf %>
+            </p>
+            <p>
+              <%= f.submit 'Dodaj' %>
+            </p>
+  <% else %>
+  <p> Istnieje już wersja PDF, nie możesz dodać drugiej </p>
+  <p>Nazwa pliku: <%= @magazine.eversion.pdf_file_name %> </p>
+  <p>Rozmiar pliku: <%= number_to_human_size(@magazine.eversion.pdf_file_size, :precision => 3) %></p>
+  <p>Stworzony : <%= @magazine.eversion.created_at %></p>
+  <p>Zaktualizowany: <%= @magazine.eversion.updated_at %></p>
+  <% end %>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_magazine_url(@magazine) %>

@@ -1,0 +1,44 @@
+<h1>Lista wkrótce</h1>
+
+<table id="tabela">
+  <tr style="background-color:white;">
+    <th>Magazine</th>
+    <th>Position</th>
+    <th>Title</th>
+  </tr>
+
+<% @soons.each do |soon| %>
+  <tr>
+    <td><%=h soon.magazine_id %></td>
+    <td><%=h soon.position %></td>
+    <td><%=h soon.title %></td>
+    <td><%= link_to t('nav.Show'), admin_magazine_soon_path(@magazine, soon) %></td>
+    <td><%= link_to t('nav.Edit'), edit_admin_magazine_soon_path(@magazine, soon) %></td>
+    <td><%= link_to t('nav.Destroy'), admin_magazine_soon_url(@magazine, soon), :confirm => 'Are you sure?', :method => :delete %></td>
+    <td>
+       <% if (soon === @soons.first) then %>
+          <%= link_to 'D |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "down"}, :method => :put, :class => 'down' %>
+          <%= link_to '', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "last"}, :method => :put, :class => 'llast' %>
+       <% elsif (soon === @soons.last) then %>
+          <%= link_to '', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "first"}, :method => :put %>
+          <%= link_to 'U |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "up"}, :method => :put, :class => 'up' %>
+
+      <% else %>
+      <%= link_to '', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "first"}, :method => :put, :class => 'ffirst' %>
+      <%= link_to 'U |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "up"}, :method => :put, :class => 'up' %>
+      <%= link_to 'D |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%= link_to '', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "last"}, :method => :put %>
+      <% end %>
+     </td>
+      <%# link_to 'F |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "first"}, :method => :put %>
+      <%# link_to 'U |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "up"}, :method => :put, :class => 'up' %>
+      <%# link_to 'D |', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%# link_to 'L', {:controller => 'admin/soons', :action => 'move', :id => soon.id, :move => "last"}, :method => :put %>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= link_to 'Dodaj wkrótce', new_admin_magazine_soon_path %><br /><br />
+<%= link_to t('nav.Back'), admin_magazine_url(@magazine) %>

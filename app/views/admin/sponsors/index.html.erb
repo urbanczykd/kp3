@@ -1,0 +1,27 @@
+<h1>Lista sponsorów</h1>
+
+<table id="tabela">
+  <tr style="background-color: white;">
+    <th>Logo</th>
+    <th>Title</th>
+    <th>Adres</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sponsors.each do |sponsor| %>
+  <tr>
+    <td align="center"><%= image_tag sponsor.photo.url(:vsmall) %></td
+    <td align="center"><%=h sponsor.title %></td>
+    <td align="center"><%=h sponsor.adres %></td>
+    <td><%= link_to t('nav.Show'), admin_sponsor_path(sponsor) %></td>
+    <td><%= link_to t('nav.Edit'), edit_admin_sponsor_path(sponsor) %></td>
+    <td><%= link_to t('nav.Destroy'), admin_sponsor_url(sponsor), :confirm => 'Jesteś pewien?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Dodaj sponsora', new_admin_sponsor_path %>

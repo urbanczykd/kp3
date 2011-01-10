@@ -1,0 +1,17 @@
+<p>
+  <b>Nazwa:</b>
+  <%=h @iadre.title %>
+</p>
+
+<p>
+  <b>Adres:</b>
+  <%=h @iadre.adres %>
+</p>
+<hr />
+<p>
+  Sprawdz poprawność adresu oraz jego przekierowanie.<br />
+  <a href="http://<%=@iadre.adres%>"><%=@iadre.title%></a>
+</p>
+<hr />
+<%= link_to t('nav.Edit'), edit_admin_iadre_path(@iadre) %> |
+<%= link_to t('nav.Back'), admin_iadres_path %>

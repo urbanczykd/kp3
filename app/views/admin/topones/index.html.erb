@@ -1,0 +1,45 @@
+<h1>Lista głównych wydarzeń</h1>
+
+<table id="tabela">
+  <tr style="background-color:white;">
+    <th>Pozycja</th>
+    <th>Magazine</th>
+    <th>Category</th>
+    <th>Place</th>
+    <th>Title</th>
+    <th>Move</th>
+  </tr>
+
+<% @topones.each do |topone| %>
+  <tr>
+    <td><%= topone.position %></td>
+    <td><%=h topone.magazine_id %></td>
+    <td><%=h topone.category_id %></td>
+    <td><%=h topone.place_id %></td>
+    <td><%=h topone.title %></td>
+    <td>
+      <% if (topone === @topones.first) then %>
+      <%= link_to 'D |', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%= link_to '', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "last"}, :method => :put %>
+
+    <% elsif (topone === @topones.last) then %>
+      <%= link_to ' ', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "first"}, :method => :put %>
+      <%= link_to 'U |', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "up"}, :method => :put, :class => 'up' %>
+
+    <% else %>
+      <%= link_to ' ', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "first"}, :method => :put %>
+      <%= link_to 'U |', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "up"}, :method => :put, :class => 'up' %>
+      <%= link_to 'D |', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "down"}, :method => :put, :class => 'down' %>
+      <%= link_to '', {:controller => 'admin/topones', :action => 'move', :id => topone.id, :move => "last"}, :method => :put %>
+    <% end %>
+  </td>
+    <td><%= link_to t('nav.Show'), admin_magazine_topone_path(@magazine, topone) %></td>
+    <td><%= link_to t('nav.Edit'), edit_admin_magazine_topone_path(@magazine, topone) %></td>
+    <td><%= link_to t('nav.Destroy'), admin_magazine_topone_url(@magazine, topone), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Dodaj główne wydarzenie', new_admin_magazine_topone_path %>

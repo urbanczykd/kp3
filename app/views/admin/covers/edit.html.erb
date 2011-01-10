@@ -1,0 +1,23 @@
+ <%# render "right_panel" %>
+
+<h1>Edycja okładki</h1>
+<% form_for(@cover, :url => admin_magazine_cover_path, :html => {:multipart => true}) do |f| %>
+  <%= f.error_messages %>   
+  <p>
+    <%# f.label :magazine_id %><br />
+    <%= f.hidden_field :magazine_id %>
+  </p>
+<p>
+  <%= image_tag @cover.photo.url(:small) %>
+  </p>
+  <p>
+  <%= f.file_field :photo %>
+  </p>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%# link_to 'Show', @cover, :url => admin_magazine_cover_path %> 
+<%# link_to 'Back', covers_path %>

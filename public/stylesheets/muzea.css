@@ -1,0 +1,29 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color:#9b9ca0;}
+
+A {color: #CC0000;
+font-family:sans-serif;}
+
+A:Visited {color:#CC0000;}
+
+A:Hover {color:#FF6600;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#9b9ca0;}
+
+#leftcol {background-image: url(/images/pk/left_pas_muzea.png);}
+
+#rightcol A {color:#E6E6E6;
+text-decoration:none;}
+
+#rightcol A:Visited {color:#DBDBDB;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}
+
+#footer A {color: #9b9ca0;}
+#footer A:Visited {color: #FF6600;}
+#footer A:Hover {color: #FF6600;}

@@ -1,0 +1,14 @@
+<h1>Dodaj magazyn</h1>
+
+<% form_for :eventsort, @eventsort, :url => {:action => "update"} do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    Data magazynu:<br />
+    <%= f.datetime_select :start_date, :discard_hour => true, :discard_day => true %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+<%= link_to t('nav.Back'), admin_magazines_path %>

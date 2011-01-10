@@ -1,0 +1,31 @@
+<div id="footer" class="clearfix">
+| <%= link_to 'Wydarzenia', :controller => 'wydarzenia', :action => 'index', :id => ""%>
+| <%= link_to 'Muzyka', :controller => 'muzyka', :action => 'index' %>
+| <%= link_to 'Galerie', :controller => 'galerie', :action => 'index'%>
+| <%= link_to 'Teatr', :controller => 'teatr', :action => 'index'%>
+| <%= link_to 'Film', :controller => 'film', :action => 'index'%>
+| <%= link_to 'Książki', :controller => 'ksiazki', :action => 'index'%>
+| <%= link_to 'Muzea', :controller => 'muzea', :action => 'index'%>
+| <%= link_to 'Rozmaitości', :controller => 'rozmaitosci', :action => 'index'%>
+| <br />
+| <%= link_to('Zgłoś imprezę', zgloszenias_path )%>
+| <% if !@magazine.nil? then %>
+    <% if Magazine.find(@magazine.id).eversion then %>
+      <%= link_to 'Bieżący numer w PDF', Magazine.find(@magazine.id).eversion.pdf.url%>   
+        <% else %>
+        <a href="/">Brak bieżącego numeru w PDF</a>
+    <% end %>
+  <% else %>
+  <a href="/">Brak bieżącego numeru w PDF</a>
+  <% end %>
+| <%= link_to 'Archiwum', :controller => 'archiwum', :action => 'index'%>
+|
+  <div id="logo_bb"><a href="http://um.bielsko.pl" target="_top" title="Bielsko-Biała">
+    <img src="/images/pk/logo_footer_bb.png" alt="Bielsko-Biała"/></a>
+  </div>
+  
+<br /><br />
+  <div id="copyright"><a href="http://www.wietor.pl">(&copy;) Design by Wietor</a>
+  </div>
+</div>
+

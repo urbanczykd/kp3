@@ -1,0 +1,42 @@
+<p>
+  <b>Place:</b>
+  <%=h @event.place_id %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%=h @event.category_id %>
+</p>
+
+<p>
+  <b>Magazine:</b>
+  <%=h @event.magazine_id %>
+</p>
+<p>
+  <b>Start time:</b>
+  <%=h @event.start_time.strftime("%H:%M") %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @event.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @event.body %>
+</p>
+<p>
+  <b>More:</b>
+  <%=h @event.more %>
+</p>
+
+<p>Wydarzenie występuje w dniach</p>
+      <% @eventdays.each do |eday| %>
+        <%= eday.pday %><br />
+      <% end %>
+
+<%# @egalleries.to_yaml %>
+
+<%= link_to t('nav.Edit'), edit_admin_magazine_event_path(@magazine) %> |
+<%= link_to t('nav.Back'), admin_magazine_events_path %>

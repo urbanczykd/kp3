@@ -1,0 +1,26 @@
+<h1>Lista archiwalnych numerów</h1>
+
+<% form_tag  unarch_admin_archiwes_path do  %>
+<table id="tabela">
+  <tr style="background-color:white;">
+	<th>id</th>
+    <th>Magazyn z</th>
+
+  </tr>
+
+	<% @archiwes.each do |archiwe| %>
+	  <tr>
+	    <td><%=h archiwe.id %></td>
+	    <td><%=h archiwe.start_date.strftime("%Y-%m") %></td>
+	    <td><%= link_to t('nav.Show'), [:admin, archiwe] %></td>
+	    <td><%= link_to t('nav.Edit'), edit_admin_archiwe_path(archiwe) %></td>
+	    <td><%= link_to t('nav.Destroy'), [:admin, archiwe], :confirm => 'Are you sure?', :method => :delete %></td>
+	    <td><%= check_box_tag "archiwe_ids[]", archiwe.id %></td>
+	  </tr>
+	<% end %>
+</table>
+	<%= submit_tag "Przywróć z Archiwum" %>
+<% end %>
+<br />
+
+<%# link_to 'New archiwe', new_admin_archiwe_path %>

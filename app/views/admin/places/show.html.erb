@@ -1,0 +1,38 @@
+<p>
+  <b>Title:</b>
+  <%=h @place.title %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @place.name %>
+</p>
+
+<p>
+  <b>Adres:</b>
+  <%=h @place.adres %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%=h @place.telephone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @place.email %>
+</p>
+
+<p>
+  <b>Web:</b>
+  <%=h @place.web %>
+</p>
+
+<p>
+  <b>More:</b>
+  <%=h @place.more %>
+</p>
+
+
+<%= link_to t('nav.Edit'), edit_admin_place_path(@place) %> |
+<%= link_to t('nav.Back'), admin_places_path %>

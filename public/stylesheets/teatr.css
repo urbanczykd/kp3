@@ -1,0 +1,27 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color:#ffcb00;}
+
+A {color:#E9A800;
+font-family:sans-serif;}
+
+A:Visited {color:#FF6600;}
+
+A:Hover {color:#FF6600;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#E9A800;}
+
+#leftcol {background-image: url(/images/pk/left_pas_teatr.png);}
+
+#rightcol A {color: #ee7d00;;
+text-decoration:none;
+text-shadow: 0px 0px 0px #1e1600;}
+
+#rightcol A:Visited {color: #ee7d00; text-decoration:none;}
+
+#rightcol A:Hover {
+color: #FFFFE4;
+text-shadow: 1px 1px 1px #1e1600;
+text-decoration:none;}

@@ -1,0 +1,34 @@
+
+
+<% @wyniki.each do |wynik| %>
+<div id="tresc">
+  <div id="<%= Category.find(wynik.category_id).title.downcase %>">
+  <li><%= Place.find(wynik.place_id).title %>, godz. <%= wynik.start_time.strftime("%H:%M") %></li>
+    <p>
+      <a onClick="MM_changeProp('nota<%= wynik.id %>','','display','inherit','DIV')"><%= wynik.title %></a>, 
+      <% if wynik.price == 'free' || wynik.price == 'f' || wynik.price == ''%>
+      <img src="/images/pk/ico_wstep_wolny_short.png" />
+        <% else %>
+              wstęp: <%= wynik.price %> zł
+      <% end %>
+    </p>
+    <div id="nota<%= wynik.id %>", class="nota">
+      <div id="minus">
+        <a onclick="MM_changeProp('nota<%= wynik.id %>','','display','none','DIV')" >
+        <img src="/images/pk/arrow_top.png" alt="[-]" />
+      </a>
+    </div>
+    <%= wynik.body %>
+    <div id="nota_more">
+
+    <%= link_to ("<img src='/images/pk/arrow_more.png' alt=[więcej] />", :controller => pol2ascii(Category.find(wynik.category_id).title.downcase), :action =>'show', :id => wynik)%>
+    </div>
+  </div>
+ </div>
+ </div>
+
+
+<% end %>
+<div>
+    <img src="/images/pk/ico_wstep_wolny_long.png"></img>
+</div>

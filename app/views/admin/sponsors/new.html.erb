@@ -1,0 +1,24 @@
+<h1>Dodaj nowego sponora</h1>
+
+<% form_for(@sponsor , :url => admin_sponsors_path, :html => { :multipart => true }) do |f| %> 
+
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    Adres internetowy proszę podać w postaci np: http://www.um.bielsko.pl/<br />
+    <%= f.text_field :adres %>
+  </p>
+  <p>
+    <%= f.label :Logo %><br />
+    <%= f.file_field :photo %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_sponsors_path %>

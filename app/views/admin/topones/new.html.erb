@@ -1,0 +1,45 @@
+<h1>New topone</h1>
+
+<% form_for :topone, @topone, :url => {:action => "create"} do |f| %>
+  <%= f.error_messages %>
+  <table>
+      <% @sponsors.each do |sponsor| %>
+      <tr><td>
+        <%= sponsor.title %></td>
+      <td>
+      <%= check_box_tag "topone[sponsor_ids][]", sponsor.id %></td></tr>
+        
+      <% end %>
+    </table>
+  <p>
+    <%# f.label :magazine_id %>
+    <%= f.hidden_field :magazine_id, :value => params[:magazine_id] %>
+
+  </p>
+<p>
+  <%= f.label :category_id %><br />
+  <%= select(:topone, "category_id", Category.all.collect { |p| [p.title, p.id] })%>
+</p>
+<p>
+    <%= f.label :place_id %><br />
+    <%= select(:topone, "place_id", Place.all.collect { |p| [p.title, p.id] })%>
+</p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :body %><br />
+    <%= f.text_area :body, :cols => 98, :rows => 20, :class => "mceEditor" %>
+  </p>
+  <p>
+    <%# f.label :more %>
+    <%# f.text_area :more, :cols => 98, :rows => 50, :class => "mceEditor" %>
+  </p>
+
+<p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_magazine_topones_path %>

@@ -1,0 +1,18 @@
+ <table><tr><td>
+    <div style="display:block; float:left; height:auto; width: 500px;">
+      <% @egalleryp = Egalleryp.find(:all, :conditions => {:egallery_id => id}, :order => :position) %>
+        <% @egalleryp.each do |egallery| %>
+      <div style="float:left; height:170px; width:150px; margin:6px 2px 1px 1px; padding:6px 2px 2px; text-align: center; vertical-align: middle;">
+              <%# image_tag egallery.photo.url(:small)%>
+              <%# egallery.title%>
+            </a>
+    
+    <a href=<%= egallery.photo.url(:big) %> class='lightbox' title='<%=egallery.title%>'>
+      <img src=<%= egallery.photo.url(:small)%> rel="gallery-<%=egallery.egallery_id%>"alt="" />
+    </a>
+            
+      </div>
+        <% end %>
+      </div>
+    </div>
+    </td></tr></table>

@@ -1,0 +1,25 @@
+/*
+cOde Dariusz Urbańczyk
+lista kolorów:
+  footer i top: #F1F3F5;
+  ramki: #CCCCCC;
+  body background kolor: #E9ECEF;
+*/
+body { background-color: #F1F3F5; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+#login{
+width: 300px;
+background-color: #E9ECEF;
+vertical-align: bottom;
+margin: 200px auto auto auto;
+border: 2px solid #CCCCCC;
+padding: 20px;
+}
+#button{
+text-align: right;
+}

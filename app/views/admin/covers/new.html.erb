@@ -1,0 +1,22 @@
+<h1>Dodaj okładkę</h1>
+
+<% form_for (@cover, :url => admin_magazine_cover_path, :html => { :multipart => true }) do |f| %>
+                   <% if @cover != nil %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :magazine_id %><br />
+    <%= f.hidden_field (:magazine_id, :value => @magazine.id) %>
+  </p>
+  <p>
+  <%= f.file_field :photo %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+                    <% else %>
+                          <p>Okładka już istnieje nie można dodać kolejnej</p>
+                   <% end %>
+
+  
+  <% end %>
+  <%= link_to t('nav.Back'), admin_magazine_path(@magazine) %>

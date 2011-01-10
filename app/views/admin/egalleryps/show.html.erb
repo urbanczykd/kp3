@@ -1,0 +1,13 @@
+<p>
+  <b>Egallery :</b>
+  <%=h @egalleryp.egallery_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @egalleryp.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_egallery_egalleryp_path(@egallery) %> |
+<%= link_to 'Back', admin_egallery_egalleryps_path(@egallery) %>

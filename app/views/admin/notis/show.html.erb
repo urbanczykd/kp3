@@ -1,0 +1,69 @@
+<p>
+  <b>Nazwa:</b>
+  <%=h @noti.name %>
+</p>
+
+<p>
+  <b>Opis:</b>
+  <%=h @noti.description %>
+</p>
+
+<p>
+  <b>Zdjęcie:</b>
+  <%=h image_tag @noti.photo.url(:small)%>
+</p>
+
+<p>
+  <b>Bilety:</b>
+  <%=h @noti.ticket %>
+</p>
+
+<p>
+  <b>Ceny biletów:</b>
+  <%=h @noti.ticket_price %>
+</p>
+Dane organizatora:<br />
+Adres:
+<p>
+  <b>Nazwa:</b>
+  <%=h @noti.adres %>
+</p>
+
+<p>
+  <b>Ulica:</b>
+  <%=h @noti.street %>
+</p>
+<p>
+  <b>Miejscowość:</b>
+  <%=h @noti.place %>
+</p>
+
+<p>
+  <b>Kod pocztowy:</b>
+  <%=h @noti.postcode %>
+</p>
+
+<p>
+  <b>Telefon:</b>
+  <%=h @noti.telephone %>
+</p>
+
+<p>
+  <b>Strona www:</b>
+  <%=h @noti.web %>
+</p>
+Imięi nazwisko osoby odpowiedzialnel
+<p>
+  <b>Imię:</b>
+  <%= @noti.person_name %>
+</p>
+<p>
+  <b>Nazwisko:</b>
+  <%=h @noti.person_surname %>
+</p>
+<p>
+  <b>e-mail:</b>
+  <%=h @noti.person_surname %>
+</p>
+
+<%= link_to t('nav.Back'), admin_notis_path %>

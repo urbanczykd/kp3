@@ -1,0 +1,20 @@
+<h1>Editing eventday</h1>
+
+<% form_for(@eventday) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :event_id %><br />
+    <%= f.text_field :event_id %>
+  </p>
+  <p>
+    <%= f.label :pday %><br />
+    <%= f.datetime_select :pday %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @eventday %> |
+<%= link_to 'Back', eventdays_path %>

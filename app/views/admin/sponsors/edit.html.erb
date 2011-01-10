@@ -1,0 +1,34 @@
+<h1>Edycja sponsora</h1>
+
+<% form_for(@sponsor, :url => {:action => "update"}, :html => {:multipart => true }) do |f| %>
+  <%= f.error_messages %>
+
+    <%# f.label :topone_id %>
+    <%# f.text_field :topone_id %>
+    <%# f.label :event_id %>
+    <%# f.text_field :event_id %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :adres %><br />
+    <%= f.text_field :adres %>
+  </p>
+  <p>
+    <%= f.label :Logo %><br />
+    <%= image_tag @sponsor.photo.url(:small) %>
+  </p>
+
+  <p>
+    Zmień, nadpisz logo<br />
+    <%= f.file_field :photo %>
+  </p>
+  
+  <p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), admin_sponsor_path(@sponsor) %> |
+<%= link_to t('nav.Back'), admin_sponsors_path %>

@@ -1,0 +1,40 @@
+<h1>Edycja galerii</h1>
+
+<%= render :partial => 'photo' %>
+<hr />
+
+<% form_for([:admin, @egallery]) do |f| %>
+  <%= f.error_messages %>
+
+    <%# f.label :event_id %>
+    <%# f.text_field :event_id %>
+  <p>
+    Nazwa galerii:<br />
+    <%= f.text_field :name %>
+  </p>
+  <% @egalleryps.each do |egalleryps|%>
+  
+    <div id="ikona">
+      <div id="galeria_name">Nazwa:<%= text_area "egalleryps_title", egalleryps.id, :value => egalleryps.title, :cols => 22, :rows => 1 %></div>
+      <div id="galeria_id"></div>
+      <div id="galeria_foto"><%= image_tag egalleryps.photo.url(:small) %></div>
+      <div id="galeria_akcje">Usuń:<%= check_box_tag "egalleryps_ids[]", egalleryps.id %>
+        <%= link_to 'U |', {:controller => 'admin/egalleryps', :action => 'move', 
+  :id => egalleryps.id, :move => "up"}, :egallery_id => @egallery.id, :method => :put, :class => 'up' %>
+<%= link_to 'D |', {:controller => 'admin/egalleryps', :action => 'move', 
+  :id => egalleryps.id, :move => "down"}, :egallery_id => @egallery.id,:method => :put, :class => 'down' %>
+      </div>
+  </div>
+  <% end %>
+<div style="clear:both;">
+
+  <p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+  
+<% end %>
+
+<%= link_to t('nav.Show'), [:admin, @egallery] %> |
+<%= link_to t('nav.Back'), admin_egalleries_path %>
+
+

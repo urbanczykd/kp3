@@ -1,0 +1,86 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+#header, #foto, #wrapper {background-color:#9b9ca0;}
+
+A {color: #CC0000;
+font-family:sans-serif;}
+A:Visited {color:#CC0000;}
+A:Hover {color:#FF6600;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#9b9ca0;}
+
+#leftcol {background-image: url(/images/pk/left_pas_dodaj.png);}
+
+#rightcol A {color:#E6E6E6;
+text-decoration:none;}
+
+#rightcol A:Visited {color:#DBDBDB;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}
+
+/*-- Footer --*/
+#footer A {color: #9b9ca0;}
+#footer A:Visited {color: #FF6600;}
+#footer A:Hover {color: #FF6600;}
+
+/*-- Formularz --*/
+form, button {border:0;
+margin:0;
+padding:0;}
+
+.spacer {clear:both;
+height:1px;}
+
+/* ----------- My Form ----------- */
+
+.myform {margin:0 auto;
+width:400px;
+padding:14px;}
+
+/* ----------- stylized ----------- */
+
+#stylized {border:2px solid #666666;}
+
+#stylized h1 {font-size:24px;
+font-weight:bold;
+margin-bottom:8px;}
+
+#stylized p {font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;}
+
+#stylized label {display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;}
+
+#stylized .small {color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;}
+
+#stylized input {float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;}
+
+#stylized button {clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;}

@@ -1,0 +1,11 @@
+<div id="lefthead">
+  <div style="width:200px; height:5px;"><%= generuj_miesiac(@miesiac)%>
+    <p><%= generuj_rok(@rok)%></p>
+  </div>
+  <div id="dzisiaj">
+<%= link_to '', :controller => 'wydarzenia', :action => 'index', :id => @dzisiaj %>
+  </div> 
+  <div id="jutro">
+<%= link_to '', :controller => 'wydarzenia', :action => 'index', :id => @jutro %>
+  </div>
+</div>

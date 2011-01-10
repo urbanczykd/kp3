@@ -1,0 +1,25 @@
+<h1>Edycja kategorii</h1>
+
+<% form_for([:admin, @category]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :color %><br />
+    <%= f.text_field :color %>
+  </p>
+  <p>
+<div style="display: inline; width: 30px; background: <%= @category.color %>">
+    _____________________________________
+  </div><br />
+  </p>
+  <p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), [:admin, @category] %> |
+<%= link_to t('nav.Back'), admin_categories_path %>

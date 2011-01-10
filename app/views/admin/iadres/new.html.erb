@@ -1,0 +1,19 @@
+<h1>Dodaj adres</h1>
+
+<% form_for([:admin,@iadre]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nazwa_wyświetlana %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    Adres url, np: www.um.bielsko.pl - bez http:// !<br />
+    <%= f.text_field :adres %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_iadres_path %>

@@ -1,0 +1,30 @@
+<div id="right_panel">
+  <%# link_to "Pokaż numer", admin_magazine_path %><br /><br />
+
+  <%= link_to 'Edytuj datę', edit_admin_magazine_path %><br /><br />
+
+  <% if @magazine.eversion == nil %>
+          <%= link_to "Dodaj PDF", new_admin_magazine_eversion_path(@magazine) %><br />
+
+    <% else %>
+          <%= link_to "Zmień PDF", edit_admin_magazine_eversion_path(@magazine) %><br />
+          <%= link_to "Usuń PDF", admin_magazine_eversion_url(@magazine), :confirm => "na pewno?", :method => :delete %><br /><br />
+  <% end %>
+  
+  <% if @magazine.cover == nil %>
+  <%= link_to "Dodaj okładkę", new_admin_magazine_cover_path(@magazine) %><br />
+    <% else %>
+  <%= link_to "Zmień okładkę", edit_admin_magazine_cover_path(@magazine) %><br />
+  <%= link_to "Usuń okładkę", admin_magazine_cover_url(@magazine), :confirm => "Na pewno Usunąć okładkę?", :method => :delete %><br />
+  <% end %>
+  <%= link_to "Pokaż Wydarzenia", admin_magazine_events_path(@magazine) %><br />
+  <%= link_to "Sortuj Wydarzenia", admin_magazine_eventsorts_path(@magazine) %><br />
+  <%= link_to "Pokaż Wydarzenia główne", admin_magazine_topones_path(@magazine) %><br />
+  <%= link_to "Pokaż wkrótce do magazynu", admin_magazine_soons_path(@magazine) %><br />
+
+</div>
+<!-- 
+1. zabezpieczyć przed możliwością dodania więcej niż jednej wersji pdf
+2. zabezpieczyć przed możliwością dodania więcej niż jednej okładki
+3. dorobić usuwania wszystki rzeczy!
+-->

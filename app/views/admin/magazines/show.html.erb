@@ -1,0 +1,16 @@
+        <%= render "right_panel" %>
+
+
+        <%= render "start_date" %>
+        
+        <%= render "cover" %>
+        
+        <%= render "eversion" %>
+                                    <%# @magazine.to_yaml%>
+                                    <%# @magazine.methods %>
+
+
+
+<br /><br /><br /><br /><br />
+<%= link_to t('nav.Edit'), edit_admin_magazine_path(@magazine) %> |
+<%= link_to t('nav.Back'), admin_magazines_path %>

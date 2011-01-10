@@ -1,0 +1,56 @@
+<h1>Editing topone</h1>
+
+<% form_for (@topone, :url => {:action => "update"}) do |f| %>
+
+  <%= f.error_messages %>
+  <table>
+      <% @all_sponsors.each do |sponsor| %>
+           <% if @sponsors.include?(sponsor) then %>
+                  <tr><td><%= sponsor.title%></td>
+                      <td><%= check_box_tag "topone[sponsor_ids][]", sponsor.id, :html => {:checked => true} %></td>
+                  </tr>
+              <% else %>
+                  <tr><td><%= sponsor.title%></td>
+                      <td><%= check_box_tag "topone[sponsor_ids][]", sponsor.id %></td>
+                  </tr>
+            <% end %>
+        <% end %>
+  </table>
+
+
+  <p>
+    <%= f.label :position %><br />
+    <%= f.text_field :position %>
+  </p>
+
+  <p>
+    <%= f.label :magazine_id %><br />
+    <%= f.text_field :magazine_id %>
+  </p>
+<p>
+  <%= f.label :category_id %><br />
+  <%= select(:topone, "category_id", Category.all.collect { |p| [p.title, p.id] })%>
+</p>
+<p>
+    <%= f.label :place_id %><br />
+    <%= select(:topone, "place_id", Place.all.collect { |p| [p.title, p.id] })%>
+</p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :body %><br />
+    <%= f.text_area :body, :cols => 98, :rows => 60, :class => "mceEditor"  %>
+  </p>
+  <p>
+    <%# f.label :more %><br />
+    <%#= f.text_area :more %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), admin_magazine_topone_path %> |
+<%= link_to t('nav.Back'), admin_magazine_topones_path %>

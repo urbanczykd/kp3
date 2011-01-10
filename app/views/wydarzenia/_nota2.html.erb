@@ -1,0 +1,37 @@
+<br />
+<% if !@notes.nil? %>
+<% @notes.each do |note| %>
+<div id="tresc">
+  <div id="<%= Category.find(note.category_id).title.downcase %>">
+  <li><%= Place.find(note.place_id).title %>, godz. <%= note.start_time.strftime("%H:%M") %></li>
+    <p>
+      <a onClick="MM_changeProp('nota<%= note.id %>','','display','inherit','DIV')"><%= note.title %></a>, 
+   <% if note.price == 'free' || note.price == 'f' || note.price == ''%>
+      <img src="/images/pk/ico_wstep_wolny_short.png" />
+        <% else %>
+              bilety: <%= note.price %> zł
+      <% end %>  
+  </p>
+    <div id="nota<%= note.id %>", class="nota">
+      <div id="minus">
+        <a onclick="MM_changeProp('nota<%= note.id %>','','display','none','DIV')" >
+        <img src="/images/pk/arrow_top.png" alt="[-]" />
+      </a>
+    </div>
+    <%= note.body %>
+    <div id="nota_more">
+  <%= link_to "<img src=/images/pk/arrow_more.png>", :controller => pol2ascii(Category.find(note.category_id).title.downcase), :action => "show", :id => note %>
+
+    </div>
+  </div>
+ </div>
+ </div>
+<% end %>
+<% end %>
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<h1>Edycja wkrótce</h1>
+
+<% form_for(@soon, :url => {:action => "update"}) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :magazine_id %><br />
+    <%= f.text_field :magazine_id %>
+  </p>
+  <p>
+    <%= f.label :position %><br />
+    <%= f.text_field :position %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), admin_magazine_soon_path %> |
+<%= link_to t('nav.Back'), admin_magazine_soons_path %>

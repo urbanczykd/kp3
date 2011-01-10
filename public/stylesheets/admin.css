@@ -1,0 +1,260 @@
+/*
+cOde Dariusz Urbańczyk
+lista kolorów:
+  footer i top: #F1F3F5;
+  ramki: #CCCCCC;
+  body background kolor: #E9ECEF;
+*/
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/*end scaffold */
+
+  body{ background-color: #F1F3F5;
+  }  
+  #right_panel {
+  float: right;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  }
+
+#tabela {
+}
+#tabela th{
+text-transform:uppercase;
+}
+#tabela tr:hover{
+background-color: #E9ECEF;
+}
+
+
+
+#login{ 
+  margin: 10px 20px 0px 0px;
+  display: inline;
+  font-size: 12px;
+  float: right;
+}
+#panel {
+  margin: 15px;
+  display: inline;
+  float: left;
+}
+#top{
+  margin: auto auto 20px auto;
+  border: 1px solid #CCCCCC;
+  background: #E9ECEF;
+  /* background: #F1F3F5;*/
+  width: 99%;
+  height: 50px;
+  display: block;
+  font-size: 24px;
+}
+#footer{
+  margin: 20px auto auto auto;
+  border: 1px solid #CCCCCC;
+  background: #E9ECEF;
+  width: 99%;
+  height: 30px;
+}
+
+/*flash notice*/
+#flash{
+  font-size: 16px;
+  text-align: center;
+  z-index:1003;
+  filter: alpha(opacity=50); -moz-opacity: 0.7; opacity: 0.7;
+  background-color: #E5EECC;
+  position: fixed;
+  margin-left: 30%;
+  padding: 5px 0px 0px 0px;
+  height: 25px;
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+}
+flash_html {
+  display:inline;
+}
+flash_ajax{
+  display: block;
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  z-index:1003;
+  color:#ccc;
+  background-color: white;
+  padding:4px;
+
+}
+/* end flash notice */
+/* start calendar */
+#calendar table{
+  border-spacing: 0px;
+}
+#calendar td{
+  width  :100px;
+  height:100px;
+  cursor:pointer;
+  padding:0;
+  margin:0;
+  vertical-align: top;
+border-right:1px solid lightgray;
+border-top:1px solid lightgray;
+}
+#calendar td.calendar-last-column{
+border-right:none;
+}
+#calendar td span{
+  display:block;
+  color:gray;
+  font-size:13px;
+  font-weight:bold;
+  text-align:right;
+  padding:3px;
+}
+#calendar td.other-month {
+  background:#ececec;
+}
+.day-selected{
+  background:#dcfddc;
+}
+.current-day{
+  /* background:#dcf0fd; */
+}
+.day-saturday{
+  /* background:#fff6f6; */
+}
+.day-sunday{
+  /* background:#ffd6d6; */
+}
+.calendar-event{
+  position:absolute;
+  background:red;
+ -moz-border-radius:5px
+}
+.calendar-event span{
+  padding:3px;
+  display:block;
+}
+span.width-auto {
+  width:auto;
+}
+/*koniec kalendarza*/
+.up {
+display: block;
+float: left;
+background-image: url('/images/admin/uparrow.png');
+background-repeat: no-repeat;
+width: 12px;
+height: 12px;
+margin: 0 5px;
+text-indent: -9999px;
+}
+a.up:hover {
+  color: #F1F3F5;
+  background-color: #F1F3F5;
+display: block;
+float: left;
+background-image: url('/images/admin/uparrow-1.png');
+background-repeat: no-repeat;
+width: 12px;
+height: 12px;
+margin: 0 5px;
+text-indent: -9999px;
+}
+
+.down {
+display: block;
+float: left;
+background-image: url('/images/admin/downarrow.png');
+width: 12px;
+height: 12px;
+margin: 0 5px;
+text-indent: -9999px;
+}
+a.down:hover {
+  color: #F1F3F5;
+  background-color: #F1F3F5;
+display: block;
+float: left;
+background-image: url('/images/admin/downarrow-1.png');
+width: 12px;
+height: 12px;
+margin: 0 5px;
+text-indent: -9999px;
+}
+#galeria{
+border: 1px solid #CCCCCC;
+width: auto;
+height: auto;
+}
+#ikona{
+margin: 3px;
+display: block;
+float: left;
+width: 200px;
+height: 210px;
+border: 1px solid #CCCCCC;
+background-color: #F1F3F5;
+}
+#galeria_foto{
+text-align: center;
+}
+#galeria_akcje{
+text-align: center;
+
+}

@@ -1,0 +1,32 @@
+<h1>Lista miejsc</h1>
+
+<table id="tabela">
+  <tr style="background-color :white;">
+    <th>Title</th>
+    <th>Name</th>
+    <th>Adres</th>
+    <th>Telephone</th>
+    <th>Email</th>
+    <th>Web</th>
+    <th>More</th>
+  </tr>
+
+<% @places.each do |place| %>
+  <tr>
+    <td><%=h place.title %></td>
+    <td><%=h place.name %></td>
+    <td><%=h place.adres %></td>
+    <td><%=h place.telephone %></td>
+    <td><%=h place.email %></td>
+    <td><%=h place.web %></td>
+    <td><%=h place.more %></td>
+    <td><%= link_to t('nav.Show'), [:admin, place] %></td>
+    <td><%= link_to t('nav.Edit'), edit_admin_place_path(place) %></td>
+    <td><%= link_to t('nav.Destroy'), [:admin, place], :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New place', new_admin_place_path %>

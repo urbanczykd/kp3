@@ -1,0 +1,35 @@
+<h1>Lista użytkoników</h1>
+<%# current_user.to_yaml %>
+<table id="tabela">
+  <tr style="background-color:white;">
+    <th>Lp</th>
+    <th>Login</th>
+    <th>Email</th>
+    <th>Ostanio widziany</th>
+    <th>Ostanio z adresu</th>
+    <th>Usuń</th>
+    <th>Move</th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td align="center"><%=h user.position %></td>
+    <td align="center"><%=h user.username %></td>
+    <td align="center"><%=h user.email %></td>
+    <td align="center"><%=h user.last_login_at %></td>
+    <td align="center"><%=h user.last_login_ip %></td>
+
+<%# link_to t('nav.Show'), [:admin, user] %>
+<%# link_to t('nav.Edit'), edit_admin_user_path(user) %>
+    <td><%# if(user.username == 'czacha') then '' else  link_to t('nav.Destroy'), [:admin, user], :confirm => 'Na pewno chcesz usunąć tego użytkownika?', :method => :delete end  %></td>
+    <td>
+      <%= link_to 'U |', {:controller => 'admin/users', :action => 'move', :id => user.id, :move => "up"}, :method => :put, :class => 'up' %>
+      <%= link_to 'D |', {:controller => 'admin/users', :action => 'move', :id => user.id, :move => "down"}, :method => :put, :class => 'down' %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Dodaj użytkownika', new_admin_user_path %>

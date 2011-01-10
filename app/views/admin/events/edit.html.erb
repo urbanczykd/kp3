@@ -1,0 +1,68 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#calendar").calendarWidget({
+            <% if params[:magazine_id] %>
+                month:<%= Magazine.find(params[:magazine_id], :select => :start_date).start_date.month-1 %>,
+                year: <%= Magazine.find(params[:magazine_id], :select => :start_date).start_date.year %>,
+            <% end %>
+      startDay:1,
+      output: $('#event_when')
+      });
+    });
+</script>
+
+
+<h1>Edycja eventu</h1>
+<% form_for (@event, :url => {:action => "update"}) do |f| %>
+  <%= f.error_messages %>
+  <p>
+<%= f.label :place_id %> <br />
+<%= select(:event, "place_id", Place.all.collect{ |p| [p.title, p.id]} )%>
+</p>
+<p>
+<%= f.label :category_id %><br />
+<%= select(:event, "category_id", Category.all.collect{ |p| [p.title, p.id]} )%>
+<p> 
+Wydarzenie? <%= check_box_tag "event[e]", true, @event.e? %>
+</p>
+
+</p>
+    <%# f.label :magazine_id %>
+    <%= f.hidden_field :magazine_id %>
+  <p>
+    <%= f.label :start_time %><br />
+    <%= f.time_select :start_time %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+    <%= f.label :body %><br />
+    <%= f.text_area :body, :cols => 98, :rows => 20, :class => "mceEditor" %><br />
+
+    <%= f.label :more %><br />
+    <%= f.text_area :more, :cols => 98, :rows => 50, :class => "mceEditor" %><br />
+
+    <div id="calendar"></div>
+    <%= i = @eventdays.map{|t| t.pday.strftime("%d-%m-%Y")}.join(';') %>
+  <p>
+    Cena biletu:<br />
+    <%= f.text_field :price %>
+  </p>
+
+
+<p>
+    <%= f.label :when %><br />
+    <%= text_field( :event, :when, :value => i) %>  </p>
+
+<p>
+<%= f.label :old_days %>
+<%= text_field( :event, :old_days, :value => i)%>
+</p>
+<p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), admin_magazine_event_path%> |
+<%= link_to t('nav.Back'), admin_magazine_event_path %>

@@ -1,0 +1,31 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color:#009de0;}
+
+A {color: #009de0;
+font-family:sans-serif;}
+
+A:Visited {color:#008DCA;}
+
+A:Hover {color:#62D0FF;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#009de0;}
+
+#leftcol {background-image: url(/images/pk/left_pas_rozmaitosci.png);}
+
+#rightcol A {color:#D5F2FF;
+text-decoration:none;}
+
+#rightcol A:Visited {color:#BBEBFF;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}
+
+#footer A {color: #00acf0;}
+
+#footer A:Visited {color: #76b8ff;}
+
+#footer A:Hover {color: #bce4fc;}

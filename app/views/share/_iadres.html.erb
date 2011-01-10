@@ -1,0 +1,16 @@
+<% if !@iadres.nil? then %>
+    <img src="/images/pk/wazne_adresy_250px.png" vspace="0" alt="" />
+<div id="tresc">
+  <p>
+      <ul>
+
+         <% @iadres.each do |iadre| %>
+        <li>
+          <a href="http://<%= iadre.adres%>"><%= iadre.title %></a>
+        </li>
+          <% end %>
+      </ul>
+  </p>
+</div>
+
+<% end %>

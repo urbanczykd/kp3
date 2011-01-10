@@ -1,0 +1,496 @@
+html, body {margin: 0;
+padding: 0;
+text-align: center;
+background-attachment: fixed;
+background-image: url(/images/pk/tlo_wzor.jpg);
+background-position: center top;
+font: normal 1.57em/1.7em;
+font-weight: lighter;}
+
+#pagewidth {width: 981px;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+background-attachment: inherit;
+background-repeat: repeat-y;
+background-position: center top;
+-webkit-box-shadow: 0px 12px 44px #000000;
+-moz-box-shadow: 0px 12px 44px #000000;
+box-shadow: 0px 12px 44px #000000;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;}
+
+/*Naglowek*/
+
+#header {position: relative;
+height: 215px;
+background-color: #FF0000;
+width: 100%;
+background-image: url(/images/pk/header.png);
+top: 0px;}
+
+#header #lefthead {width: 200px;
+height: 195px;
+float: left;
+z-index: 1;
+position: inherit;
+margin-top: 6px;
+margin-left: 28px;}
+
+#header #lefthead IMG {float: inherit;
+clear: both;
+border: none;}
+
+#header #lefthead A {text-decoration: none;}
+
+#rok {margin-top: 6px;
+margin-bottom: 12px;}
+.mobil{display:none;}
+#dzisiaj {width:152px; height:36px; background: transparent url(/images/pk/header_zmienne_dzis_N.png) 0 50% no-repeat; display: block;}
+#dzisiaj A {display: block; margin-top: 120px; width:152px; height:36px; background: transparent url(/images/pk/header_zmienne_dzis_N.png) 0 50% no-repeat;}
+#dzisiaj A:Hover {background: transparent url(/images/pk/header_zmienne_dzis_H.png) 0 50% no-repeat; display: block;}
+
+#jutro {margin-top: -120px; width:152px; height:36px; background: transparent url(/images/pk/header_zmienne_jutro_N.png) 0 50% no-repeat; display: block;}
+#jutro A {display: block; margin-top: 120px; width:152px; height:36px; background: transparent url(/images/pk/header_zmienne_jutro_N.png) 0 50% no-repeat;}
+#jutro A:Hover {background: transparent url(/images/pk/header_zmienne_jutro_H.png) 0 50% no-repeat; display: block;}
+
+/*  OG�LNE STYLE TEKSTOWE*/
+
+OL {font-family: sans-serif;
+font-size: 12px;}
+
+UL {font-family: sans-serif;
+font-size: 12px;}
+
+A {color: #FF0000;
+font-family: sans-serif;
+font-weight: bold;}
+
+A:Visited {color: #FF6600;
+font-weight: bold;}
+
+A:Hover {color: #FF6600;
+font-weight: bold;
+text-decoration: underline;}
+
+H1 {color: #FF0000;
+font-weight: bold;
+font-size: 2em;}
+
+H2 {color: #FF0000;
+font-size: 20px;
+font-family: sans-serif;}
+
+H3 {color: #FF0000;
+font-size: 14px;
+font-family: sans-serif;}
+
+FORM {-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+
+INPUT, SELECT, OPTION, TEXTAREA {font-family: sans-serif;
+font-size: 11px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+
+/*LEWY-PRAWY-TRESC*/
+
+#wrapper {background-color: #ff0000;
+}
+
+#leftcol {width: 200px;
+float: left;
+position: relative;
+background-image: url(/images/pk/left_pas_wydarzenie.png);
+height: 350px;}
+
+#twocols {width: 780px;
+float: right;
+position: relative;}
+
+#rightcol {width: 250px;
+float: right;
+position: relative;}
+
+#rightcol h1 {margin-bottom: 12px;
+font-style: normal;
+font-size: 20px;
+line-height: 22px;
+color: #ffffff;
+font-weight: bold;}
+
+#rightcol img {margin-bottom: 12px;}
+
+#maincol {background-color: #ffffff;
+float: left;
+display: inline;
+position: relative;
+width: 530px;
+min-height: 476px;}
+
+#tresc {font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+padding-top: 0;
+padding-left: 12px;
+padding-bottom: 12px;
+padding-right: 12px;}
+
+#tresc B {font-weight: bold;}
+
+#rightcol #tresc {font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: -25px;
+padding-top: 0px;
+padding-right: 22px;
+padding-bottom: 12px;
+padding-left: 16px;
+/*	Cienie
+    opacity: 0.6;
+text-shadow: 1px 1px 1px #FFFFFF;
+*/}
+
+#footer {height: 23%;
+background-color: #464646;
+clear: both;
+width: 958px;
+color: #FFFFFF;
+padding: 12px;
+font: normal 0.7em/1.8em Verdana, Helvetica, Arial, sans-serif;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 12px;
+-webkit-border-bottom-left-radius: 12px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 12px;
+-moz-border-radius-bottomleft: 12px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;}
+
+#footer A {text-decoration: none;
+font-weight: bold;}
+
+#footer A:hover {text-decoration: none;
+font-weight: bold;
+opacity: 1;
+text-shadow: 1px 1px 1px #000000;}
+
+#footer A:active {text-decoration: none;
+font-weight: bold;
+opacity: 0.8;
+text-shadow: 0px 0px 12px #FFFFFF;}
+
+#footer #copyright {text-decoration: none;
+position: relative;
+font-size: 1em;
+float: left;
+clear: both;
+bottom: 12px;
+margin-bottom: -16px;
+color: #959595 !important;}
+
+#copyright A:visited, #copyright A {color: #707070 !important;}
+
+#footer #logo_bb {text-decoration: none; 
+position: relative;
+float: right;
+clear: both;
+bottom: 12px;
+right: 12px;
+margin-bottom: -16px;}
+#logo_bb IMG {border: none;}
+
+/* *** Czyszczenie wg fix:http://www.csscreator.com/attributes/containedfloat.php *** */
+
+.clearfix:after {content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {height: 1%;}
+
+.clearfix {display: block;}
+
+/*printer styles*/
+
+@media print {
+.mobil{display: block}
+
+/*hide the left column when printing*/
+
+#leftcol {display: none;}
+
+/*hide the right column when printing*/
+
+#rightcol {display: none!important;}
+#maincol {width: 100%;
+float: none;}
+
+}
+
+/*MENU_TOP*/
+
+#menu_top {background-color: #464646;
+height: 50px;
+width: 981px;}
+
+#menu_top A {text-decoration: dotted;}
+
+#menu_top A:Visited {text-decoration: none;}
+
+#menu_top A:Hover {text-decoration: none;}
+
+#menu_top IMG {margin: 0;
+padding: 0;
+border: none;}
+
+#rightcol A {color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+opacity: 1;
+text-shadow: 1px 1px 1px #000000;}
+
+#rightcol A:Visited {color: #ffffff;
+font-weight: bold;
+text-decoration: none;}
+
+#rightcol A:Hover {color: #CCCCCC;
+text-decoration: none;
+font-weight: bold;
+text-shadow: 1px -1px 1px #000000;}
+
+#kalendarium_left {width: 200px;
+float: left;
+position: relative;
+height: 180px;
+background-image: url(/images/pk/menu_left_kalendarium.png);
+background-repeat: no-repeat;
+padding-bottom: 0px;
+bottom: 30px;
+margin-bottom: 0px;
+z-index: 99;
+top: 12px;}
+
+#kalendarium_right {width: 250px;
+float: right;
+position: relative;
+height: 205px;
+background-image: url(/images/pk/kalendarium250px.png);
+background-repeat: no-repeat;
+padding-bottom: 0px;
+bottom: 30px;
+margin-bottom: 33px;
+z-index: 99;
+top: 12px;
+clear: both;}
+
+#foto {width: 220px;
+margin-left: 12px;
+margin-right: 12px;
+margin-bottom: 5px;
+float: right;
+/* to replace your align="right" */
+	background-color: #FF0000;
+padding: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;}
+
+#foto p {font-family: sans-serif;
+font-size: 9px;
+text-align: center;
+padding-top: 0px;
+padding-right: 6px;
+padding-bottom: 2px;
+padding-left: 6px;}
+
+#szukaj_header {float: right;}
+
+#more {float: right;
+clear: both;
+margin-bottom: 24px;}
+
+/*formatowanie listy imprez w kalendarium*/
+
+#muzyka li {font-size: 16px;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_muza.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#galerie li {font-size: 16px;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_galerie.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#teatr li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_teatr.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#film li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_film.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#książki li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_book.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#muzea li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_book.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#rozmaitości li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_rozma.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+/* UWAGA kodowanie rozwijanych not w kalendarium - zmienone!!!*/
+
+.nota {display: none;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-bottom-style: dotted;
+border-left-style: dotted;
+padding: 7px;
+margin-top: 0px;
+margin-right: 24px;
+margin-bottom: 12px;
+margin-left: 24px;
+z-index: 99;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 6px;}
+
+#nota_more {float: right;
+/*z-index: 97;
+*/
+	right: 0;
+text-decoration: none;
+margin-top: -3px;
+margin-right: -14px;
+margin-bottom: 14px;}
+
+#nota_more IMG {border: none;
+vertical-align: bottom;}
+
+#minus {padding: 0px;
+float: left;
+border-width: 0px;
+border-style: dotted;
+margin-top: -12px;
+margin-left: -14px;
+z-index: 98;
+top: 0px;}
+
+
+/*c0de ...*/
+#kalendarium{
+  margin: 40px 0px 20px 0px;
+  height: 40px;
+  width: 250px;
+  background-image: url(/images/pk/kalendarium.png);
+}
+#kalendarz{
+  display: block;
+  padding: 0px 20px 0px 20px;
+  width: 197px;
+  height: 100px;
+  color: green;
+}
+
+#col{
+  width: 22px; 
+  height: 20px; 
+  display:block; 
+  float:left; 
+  margin: 2px 3px 2px 3px;
+}
+
+/*menu*/
+.menu_t { display: block; float: left; height: 50px;}
+#muzykat{ width: 163px; background-image: url(/images/pk/menu_t/muzyka_N.png);}
+#muzykat_A{ width: 163px; background-image: url(/images/pk/menu_t/muzyka_A.png);}
+#muzykat:hover{ width: 163px; background-image: url(/images/pk/menu_t/muzyka_H.png);}
+
+#galeriet{ width: 134px; background-image: url(/images/pk/menu_t/galerie_N.png);}
+#galeriet_A{ width: 134px; background-image: url(/images/pk/menu_t/galerie_A.png);}
+#galeriet:hover{ width: 134px; background-image: url(/images/pk/menu_t/galerie_H.png);}
+
+#teatrt{ width: 108px; background-image: url(/images/pk/menu_t/teatr_N.png);}
+#teatrt_A{ width: 108px; background-image: url(/images/pk/menu_t/teatr_A.png);}
+#teatrt:hover{ width: 108px; background-image: url(/images/pk/menu_t/teatr_H.png);}
+
+#filmt{ width: 99px; background-image: url(/images/pk/menu_t/film_N.png);}
+#filmt_A{ width: 99px; background-image: url(/images/pk/menu_t/film_A.png);}
+#filmt:hover{ width: 99px; background-image: url(/images/pk/menu_t/film_H.png);}
+
+#ksiazkit{ width: 135px; background-image: url(/images/pk/menu_t/ksiazki_N.png);}
+#ksiazkit_A{ width: 135px; background-image: url(/images/pk/menu_t/ksiazki_A.png);}
+#ksiazkit:hover{ width: 135px; background-image: url(/images/pk/menu_t/ksiazki_H.png);}
+
+#muzeat{ width: 129px; background-image: url(/images/pk/menu_t/muzea_N.png);}
+#muzeat_A{ width: 129px; background-image: url(/images/pk/menu_t/muzea_A.png);}
+#muzeat:hover{ width: 129px; background-image: url(/images/pk/menu_t/muzea_H.png);}
+
+#rozmaitoscit{ width: 212px; background-image: url(/images/pk/menu_t/rozmaitosci_N.png);}
+#rozmaitoscit_A{ width: 212px; background-image: url(/images/pk/menu_t/rozmaitosci_A.png);}
+#rozmaitoscit:hover{ width: 212px; background-image: url(/images/pk/menu_t/rozmaitosci_H.png);}
+
+
+

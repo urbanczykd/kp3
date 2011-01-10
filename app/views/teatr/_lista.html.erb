@@ -1,0 +1,8 @@
+<h1>Wydarzenia z kategorii <%= params[:controller]%></h1>
+<% @teatr.each do |teatr| %>
+<p>
+Tytuł: 
+<%= link_to(teatr.title, :controller => params[:controller], :action => "show", :id => teatr) %>
+
+</p>
+<% end %>

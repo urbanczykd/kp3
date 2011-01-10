@@ -1,0 +1,28 @@
+<h1>Lista zgłoszeń</h1>
+
+<table id="tabela">
+  <tr style="background-color :white;">
+    <th>Nazwa</th>
+    <th>Rodzaj_imprezy</th>
+    <th>Cena biletu</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+
+  </tr>
+
+<% @notis.each do |noti| %>
+  <tr>
+    <td><%=h noti.name %></td>
+    <td><%=h (noti.ticket == 'ticket')? "Biletowa" : "Wstęp wolny" %></td>
+    <td><%=h noti.ticket_price.empty? ? "Brak danych" : noti.ticket_price %></td>
+    <td><%=h noti.email %></td> 
+    <td><%= link_to t('nav.Show'), admin_noti_path(noti) %></td>
+    <td><%= link_to t('nav.Destroy'), admin_noti_path(noti), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%# link_to 'New place', new_admin_place_path %>

@@ -1,0 +1,103 @@
+
+<% form_for @zgloszenia, :url => zgloszenia_path do |f| %>
+<%#form_for :post, Post.new, :url => posts_path, :html => { :class => "new_post", :id => "new_post" } do |f| %>
+
+  <%= f.error_messages %>
+  <%#, :url => {:action =>"create"}, :html => {:class => 'appnitro', :multipart => true}%>
+<div class="form_description">
+<br />
+			<h2>Dodaj imprezę</h2>
+			<p>Za pomocą tego formularza poinformujesz Pełną Kulturę o twojej imprezie. <br />
+			  Opis, zredagowany przez twórców PK, pojawi się w kolejnym numerze</p>
+		</div>	
+<ul >
+		<li id="li_1" >
+		  <label class="description" for="element_1">Nazwa </label>
+		  <div>
+        <%= f.text_field :name, :class => 'element text medium' %>
+		  </div> 
+		</li>
+    <li id="li_2" >
+		  <label class="description" for="element_2">Opis </label>
+		  <div>
+        <%= f.text_area :description, :class => 'element textarea medium' %>
+		  </div> 
+		</li>
+    <li id="li_3" >
+    	  <label class="description" for="element_3">Zdjęcie </label>
+		  <div>
+      <%= f.file_field :photo, :class=>'element file' %>
+		  </div>  
+		</li>		
+    <li class="section_break">
+			<h3><hr></h3>
+			<p></p>
+		</li>		<li id="li_12" >
+   <label class="description" for="element_12">Bilety </label>
+   <span>
+    <%= check_box_tag 'zgloszenia[ticket]', 'free' %><label class="choice" for="element_12_1">Wstęp wolny</label>
+    <%= check_box_tag 'zgloszenia[ticket]', 'ticket' %><label class="choice" for="element_12_1">Impreza biletowa</label>
+   </span> 
+		</li>
+      <li id="li_4" >
+        <label class="description" for="element_4">Ceny biletów </label>
+		<div>
+      <%= f.text_field :ticket_price, :class => 'element text medium' %><br />
+		</div> 
+      </li>
+        <li class="section_break">
+			<h3>Dane organizatora</h3>
+			</li>		
+		<li id="li_8" >
+		<label class="description" for="element_8">Adres </label>
+		<div>
+        <%= f.text_field :adres, :class => 'element text large' %>
+		  <label for="element_8_1">Nazwa</label>
+		</div>
+		<div>
+         <%= f.text_field :street, :class => 'element text large' %>
+  		   <label for="element_8_2">Ulica</label>
+		</div>
+		<div class="left">
+       <%= f.text_field :place, :class => 'element text medium' %>
+  		 <label for="element_8_3">Miejscowość</label>
+		</div>
+	
+		<div class="left">
+       <%= f.text_field :postcode, :class => 'element text medium' %>
+ 		   <label for="element_8_5">Kod pocztowy</label>
+		</div>
+		</li>
+		<li id="li_10" >
+		  <label class="description" for="element_10">Telefon </label>
+		  <div>
+        <%= f.text_field :telephone, :class => 'element text medium' %>
+		  </div> 
+		</li>		
+    <li id="li_9" >
+		  <label class="description" for="element_9">Strona www </label>
+		    <div>
+          <%= f.text_field :web, :class => 'element text medium' %>
+		    </div> 
+		</li>		
+    <li id="li_7" >
+  		<label class="description" for="element_7">Imię i nazwisko osoby odpowiedzialnej </label>
+	  	<span>
+         <%= f.text_field :person_name, :class => 'element text' %>
+			  <label>imię</label>
+		  </span>
+		<span>
+      <%= f.text_field :person_surname, :class => 'element text' %>
+		<label>nazwisko</label>
+		</span> 
+		</li>		<li id="li_11" >
+		<label class="description" for="element_11">Email </label>
+		<div>
+      <%= f.text_field :email, :class => 'element text medium' %>
+		</div> 
+	</li>
+					<li class="buttons">
+                <%= f.submit 'Wyślij', :class => 'button_text' %>
+      		</li>
+</ul>
+<% end %>

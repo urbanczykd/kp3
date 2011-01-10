@@ -1,0 +1,22 @@
+<h1>Listing eventdays</h1>
+
+<table>
+  <tr>
+    <th>Event</th>
+    <th>Pday</th>
+  </tr>
+
+<% @eventdays.each do |eventday| %>
+  <tr>
+    <td><%=h eventday.event_id %></td>
+    <td><%=h eventday.pday %></td>
+    <td><%= link_to 'Show', eventday %></td>
+    <td><%= link_to 'Edit', edit_eventday_path(eventday) %></td>
+    <td><%= link_to 'Destroy', eventday, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New eventday', new_admin_eventday_path %>

@@ -1,0 +1,17 @@
+<h1>Dodawanie galerii zdjęć</h1>
+
+<% form_for([:admin, @egallery]) do |f| %>
+  <%= f.error_messages %>
+
+    <%# f.label :event_id %>
+    <%# f.text_field :event_id %>
+  <p>
+    Nazwa foto galerii<br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_egalleries_path %>

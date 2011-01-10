@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  topone_id: 1
+  event_id: MyString
+  title: MyString
+  adres: MyString
+
+two:
+  topone_id: 1
+  event_id: MyString
+  title: MyString
+  adres: MyString

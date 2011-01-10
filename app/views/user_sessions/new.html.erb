@@ -1,0 +1,16 @@
+<%# title "Login" %>
+
+<% form_for @user_session do |f| %>
+  <%= f.error_messages %>
+  <p>
+    Login: <br />
+    <%= f.text_field :username %>
+  </p>
+  <p>
+    Hasło: <br />
+    <%= f.password_field :password %>
+  </p>
+  <div id="button">
+    <%= f.submit "Login" %>
+  </div>
+<% end %>

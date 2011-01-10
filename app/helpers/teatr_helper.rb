@@ -1,0 +1,2 @@
+module TeatrHelper
+end

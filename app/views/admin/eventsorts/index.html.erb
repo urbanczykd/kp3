@@ -1,0 +1,20 @@
+<h1>Lista sortowania wydarzeń</h1>
+  <br />
+  <br />
+
+<% form_for :eventsort, @eventsort, :url => {:action => "update"}  do |f| %>
+
+<ul id="sortable" style="font: 18px black;">
+<% @miejsca.split(";").each do |miejsce| %>
+
+<li id="<%= miejsce %>"><%= Place.find(miejsce).title %></li>
+
+<% end %>
+</ul>
+  <%= hidden_field_tag 'eventsort[id]', value = params[:magazine_id]%>
+  <%= hidden_field_tag 'eventsort[miejsce]', value = @kolejnosc, :id => 'miejsca'%>
+  <br />
+  <%= f.submit 'Zapisz'%>
+  <% end %>
+  
+<%= link_to t('nav.Back'), admin_magazine_path(params[:magazine_id]) %>

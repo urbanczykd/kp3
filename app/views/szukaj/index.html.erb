@@ -1,0 +1,31 @@
+<div id="pagewidth" >
+<div id="header">
+<%= render :partial => '/share/header' %>
+<%= render :partial => '/share/search' %>
+</div>
+ <div id="menu_top" >
+   <%= menu_k %>
+</div>
+  <div id="wrapper" class="clearfix" > 
+		<div id="twocols" class="clearfix"> 
+			<div id="maincol" > 
+<%# render :partial => 'topone' %>
+<%# render :partial => 'nota' %>
+<%= render :partial => 'szukaj' %>
+
+     </div>
+<%= render :partial => '/share/kalendarium'%>
+    <div style="clear: both;"></div>
+<%= render :partial => '/share/soon' %>
+              <%# render :partial => '/share/iadres' %>
+    <img src="/images/pk/kontakt_250px.png" vspace="0" alt="" />
+  <div id="tresc">
+<%= render :partial => '/share/kontakt'%>
+  </div>
+ </div>
+</div> 
+<div id="wrapper" class="clearfix" >
+    <div id="leftcol" ></div>
+  </div>
+</div>
+<%= render :partial => '/share/footer' %>

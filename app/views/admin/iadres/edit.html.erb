@@ -1,0 +1,20 @@
+<h1>Edycja Adresu</h1>
+
+<% form_for([:admin, @iadre]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    Nazwa:<br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    Adres: np: www.um.bielsko.pl - proszę wpisać bez http://!<br />
+    <%= f.text_field :adres %>
+  </p>
+  <p>
+    <%= f.submit t('nav.Update') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Show'), [:admin, @iadre] %> |
+<%= link_to t('nav.Back'), admin_iadres_path %>

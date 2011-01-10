@@ -1,0 +1,23 @@
+<h1>Dodaj zdjęcie do galerii</h1>
+
+<% form_for(@egalleryp, :url => admin_egallery_egalleryps_path, :html => { :multipart => true}) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :egallery_id %><br />
+    <%= f.text_field :egallery_id, :value => params[:egallery_id] %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+  <%= f.file_field :photo %>
+
+  </p>
+  <p>
+    <%= f.submit t('nav.Create') %>
+  </p>
+<% end %>
+
+<%= link_to t('nav.Back'), admin_egallery_egalleryps_path %>

@@ -1,0 +1,20 @@
+<h1>Editing egalleryp</h1>
+
+<% form_for(@egalleryp) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :egallery_id %><br />
+    <%= f.text_field :egallery_id %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @egalleryp %> |
+<%= link_to 'Back', egalleryps_path %>

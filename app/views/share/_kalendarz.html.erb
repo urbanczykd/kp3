@@ -1,0 +1,36 @@
+<% if @xday.nil? then %>
+  <%= @xday = Date.today.to_s %>
+  <% else %>
+  <% x =  @xday.to_s %>
+<% date_split = Date.parse(x) %>
+<% base_day = Date.civil(date_split.year, date_split.month, date_split.day)%>
+<% base_day_first = Date.civil(date_split.year, date_split.month, 1) %>
+<% cal_year = date_split.year.to_s %>
+<% cal_month = "-"+date_split.month.to_s+"-"%>
+<% for day in (base_day_first.beginning_of_week..base_day.end_of_month.end_of_week) %>
+
+  <%= case day 
+  when base_day_first.beginning_of_week...base_day_first
+   "<div id=\"INACT_#{day.day}\"></div>"
+
+
+  when base_day_first..base_day.end_of_month
+   if (day.wday == 6) && (day != base_day)
+link_to ("<div id=\"N_SO_#{day.day}\"></div>", kalendarium_path(:id => cal_year+cal_month+day.day.to_s))
+    
+   elsif (day.wday == 0) && (day != base_day)
+link_to ("<div id=\"N_ND_#{day.day}\"></div>", kalendarium_path(:id => cal_year+cal_month+day.day.to_s))
+    
+   elsif (day == base_day)
+    "<div id=\"ACT_#{day.day}\"></div>"
+    
+  else
+      link_to("<div id=\"N_#{day.day}\"></div>", kalendarium_path(:id => cal_year+cal_month+day.day.to_s))
+      
+   end
+
+when base_day.end_of_month+1.day..base_day.end_of_month.end_of_week
+"<div id=\"INACT_#{day.day}\"></div>"
+    end %>
+<% end %>
+<% end %>

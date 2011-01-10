@@ -1,0 +1,22 @@
+<h1>Listing egalleryps</h1>
+
+<table>
+  <tr>
+    <th>Egallery</th>
+    <th>Title</th>
+  </tr>
+
+<% @egalleryps.each do |egalleryp| %>
+  <tr>
+    <td><%=h egalleryp.egallery_id %></td>
+    <td><%=h egalleryp.title %></td>
+    <td><%= link_to 'Show', admin_egallery_egalleryp_path(@egallery, egalleryp) %></td>
+    <td><%= link_to 'Edit', edit_admin_egallery_egalleryp_path(@egallery, egalleryp) %></td>
+    <td><%= link_to 'Destroy', admin_egallery_egalleryp_url(@egallery, egalleryp), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New egalleryp', new_admin_egallery_egalleryp_path %>

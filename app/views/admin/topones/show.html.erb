@@ -1,0 +1,36 @@
+<p>
+  <b>Position:</b>
+  <%=h @topone.position %>
+</p>
+<p>
+  <b>Magazine:</b>
+  <%=h @topone.magazine_id %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%=h @topone.category_id %>
+</p>
+
+<p>
+  <b>Place:</b>
+  <%=h @topone.place_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @topone.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @topone.body %>
+</p>
+<p>
+  <b>Body:</b>
+  <%=h @topone.more %>
+</p>
+
+
+<%= link_to t('nav.Edit'), edit_admin_magazine_topone_path(@magazine) %> |
+<%= link_to t('nav.Back'), admin_magazine_topones_path(@magazine) %>

@@ -1,0 +1,12 @@
+
+<% if @magazine.eversion == nil %>
+   <br />Brak wersji PDF
+<% else %>
+    <br />
+    Nazwa pliku: <%= @magazine.eversion.pdf_file_name %><br />
+    Rozmiar pliku: <%= number_to_human_size(@magazine.eversion.pdf_file_size, :precision => 3) %><br />
+    Utworzony : <%= @magazine.eversion.created_at %><br />
+    Zaktualizowany: <%= @magazine.eversion.updated_at %><br />
+    Link : <%= link_to "Wersja PDF", @magazine.eversion.pdf.url %>
+    <br />
+<% end %>

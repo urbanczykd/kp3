@@ -1,0 +1,155 @@
+html, body {background-image: url(/images/pk/tlo_wzor.jpg);}
+
+#header, #foto, #wrapper {background-color: #2c44b0;}
+
+#maincol {
+/*min-height:inherit;*/
+/*min-height: 776px;*/
+}
+
+
+#foto {color: #ffffff;}
+
+A {color: #2c44b0;
+font-family:sans-serif;
+font-weight: bold;
+text-decoration: none;}
+
+A:Visited {color:#1d2d82;
+font-weight: bold;}
+
+A:Hover {color:#6478D9;
+font-weight:bold;
+text-decoration:underline;}
+
+H1, H2, H3 {color:#2c44b0;}
+
+H1 {font-size: 2.25em;}
+
+#leftcol {background-image: url(/images/pk/left_pas_kalendarium.png);}
+
+#rightcol A {color: #acc9ff;
+text-decoration:none;}
+
+#rightcol A:Visited {color: #98b6f7;
+text-decoration:none;}
+
+#rightcol A:Hover {color:#FFFFFF;
+text-decoration:none;}
+
+#rightcol {color:#C1C1FF;}
+
+/*Footer links*/
+
+#footer A {color: #6c83ea;}
+
+#footer A:Visited {color: #6e85ee;}
+
+#footer A:Hover {color: #98b6f7;}
+
+/*formatowanie listy imprez w kalendarium*/
+
+#muzyka li {font-size: 16px;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_muza.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#galerie li {font-size: 16px;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_galerie.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#teatr li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_teatr.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#film li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_film.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#książki li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_book.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#muzea li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_book.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+#rozmaitości li {font-size: 16px;
+list-style-position: outside;
+list-style-type: square;
+list-style-image: url(/images/pk/bul_rozma.png);
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: -2px;
+margin-left: 24px;}
+
+
+.nota {display: none;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-bottom-style: dotted;
+border-left-style: dotted;
+padding: 7px;
+margin-top: 0px;
+margin-right: 24px;
+margin-bottom: 12px;
+margin-left: 24px;
+z-index: 99;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 6px;}
+
+#nota_more {float: right;
+right: 0;
+text-decoration: none;
+/*margin-top: 14px;*/
+margin-top: -3px;
+margin-right: -14px;
+margin-bottom: 14px;}
+
+#nota_more IMG {border: none;
+vertical-align: bottom;}
+
+#minus {padding: 0px;
+float: left;
+border-width: 0px;
+border-style: dotted;
+margin-top: -12px;
+margin-left: -14px;
+z-index: 98;
+top: 0px;}

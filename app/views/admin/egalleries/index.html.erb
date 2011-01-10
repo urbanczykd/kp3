@@ -1,0 +1,23 @@
+<h1>Lista galerii</h1>
+
+
+<% @egalleries.each do |egallery| %>
+
+  <div id="ikona">
+      <div id="galeria_name">Nazwa:<%=h egallery.name %></div>
+      <div id="galeria_id"><b>ID:</b>{gallery=<%= egallery.id%>}</div>
+      <div id="galeria_foto"><%=h( image_tag egallery.egalleryps.first.photo.url(:small)) if (egallery.egalleryps.first) %></div>
+      <div id="galeria_akcje">
+         <%= link_to t('nav.Show'), [:admin, egallery] %>
+         <%= link_to t('nav.Edit'), edit_admin_egallery_path(egallery) %>
+         <%= link_to t('nav.Destroy'), [:admin, egallery], :confirm => 'Na pewno ?', :method => :delete %>
+      </div>
+  </div>
+
+<% end %>
+
+
+<div style="clear: both;"></div>
+<br />
+
+<%= link_to 'Dodaj galerię', new_admin_egallery_path %>

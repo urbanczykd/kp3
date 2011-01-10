@@ -1,0 +1,46 @@
+<h1>Lista magazynów</h1>
+
+<% form_tag  arch_admin_magazines_path do  %>
+
+<table id="tabela">
+  <tr style="background-color:white;">
+	<th>ID</th>
+    <th>Start date</th>
+    <th>Okładka</th>
+    <th>Wersja PDF</th>
+    <th>Pokaż</th>
+    <th>Edytuj</th>
+    <th>Usuń</th>
+    <th>Do Archium</th>
+  </tr>
+
+	<% @magazines.each do |magazine| %>
+  <tr>
+    <td><%=h magazine.id %></td>
+    <td><%=h magazine.start_date.strftime("%Y-%m") %></td>
+    <td align="center"><% if magazine.cover == nil %>
+        Nie
+      <% else %>
+        Tak
+      <% end %>
+  </td>
+    <td align="center"><% if magazine.eversion == nil %>
+        Nie
+      <% else %>
+        Tak
+      <% end %>
+  </td>
+    <td align="center"><%= link_to t('nav.Show'), [:admin, magazine] %></td>
+    <td align="center"><%= link_to t('nav.Edit'), edit_admin_magazine_path(magazine) %></td>
+    <td align="center"><%= link_to t('nav.Destroy'), [:admin, magazine], :confirm => 'Are you sure?', :method => :delete %></td>
+    <td align="center"><%= check_box_tag "magazine_ids[]", magazine.id %></td>
+  </tr>
+	<% end %>
+</table>
+
+	<%= submit_tag "Przenieś do Archiwum" %>
+<% end %>
+
+<br />
+
+<%= link_to 'Dodaj nowy magazyn', new_admin_magazine_path %>

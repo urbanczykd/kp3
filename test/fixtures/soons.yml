@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  magazine_id: 1
+  position: 1
+  title: MyString
+
+two:
+  magazine_id: 1
+  position: 1
+  title: MyString

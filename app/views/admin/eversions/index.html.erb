@@ -1,0 +1,20 @@
+<h1>Listing eversions</h1>
+
+<table>
+  <tr style="background-color:white;">
+    <th>Magazine</th>
+  </tr>
+
+<% @eversions.each do |eversion| %>
+  <tr>
+    <td><%=h eversion.magazine_id %></td>
+    <td><%= link_to 'Show', eversion %></td>
+    <td><%= link_to 'Edit', edit_eversion_path(eversion) %></td>
+    <td><%= link_to 'Destroy', eversion, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New eversion', new_eversion_path %>

@@ -1,0 +1,22 @@
+<p>
+  <%#h @egallery.event_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @egallery.name %>
+</p>
+<p>
+  <% @egalleryps.each do |egalleryps|%>
+      <div style="display: block; float:left; margin: 5px;">
+    <%= image_tag egalleryps.photo.url(:small) %>
+          <div style="display: inline;">
+          <br />Tytuł zdjęcia: <%= egalleryps.title%>
+          </div>
+      </div>
+  <% end %>
+</p>
+<div style="clear:both;">
+<br />
+<%= link_to t('nav.Edit'), edit_admin_egallery_path(@egallery) %> |
+<%= link_to t('nav.Back'), admin_egalleries_path %>
